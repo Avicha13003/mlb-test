@@ -28,11 +28,12 @@ import requests
 import streamlit as st
 import streamlit.components.v1 as components
 
-DATA_DIR = Path("data")
-DAILY_OUT = Path("daily_out")
-RESULTS_DIR = Path("results")
-LOGS_DIR = Path("logs")
-ACCURACY_DIR = Path("accuracy_out")
+ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "data"
+DAILY_OUT = ROOT / "daily_out"
+RESULTS_DIR = ROOT / "results"
+LOGS_DIR = ROOT / "logs"
+ACCURACY_DIR = ROOT / "accuracy_out"
 SLATES = ["full", "early", "mid", "late"]
 TOP10_MARKETS = ["H", "HRR", "K"]
 

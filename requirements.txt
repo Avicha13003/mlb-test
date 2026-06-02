@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+python-dotenv
+streamlit
+plotly
+scikit-learn
+pyyaml
+pybaseball
+MLB-StatsAPI

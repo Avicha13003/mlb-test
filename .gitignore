@@ -1,0 +1,17 @@
+# Streamlit public dashboard repo
+# Keep dashboard data CSVs committed so Streamlit Cloud works immediately.
+
+# Never commit real secrets
+.streamlit/secrets.toml
+.env
+*.env
+
+# Python/cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local logs/reports
+setup_log.txt
+SETUP_REPORT.txt

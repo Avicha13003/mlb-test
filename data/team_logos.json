@@ -1,0 +1,212 @@
+[
+  {
+    "team_abbr": "ATH",
+    "team_full": "Athletics",
+    "primary_color": "#003831",
+    "secondary_color": "#EFB21E",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/ATH.png"
+  },
+  {
+    "team_abbr": "PIT",
+    "team_full": "Pittsburgh Pirates",
+    "primary_color": "#FDB827",
+    "secondary_color": "#27251F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/PIT.png"
+  },
+  {
+    "team_abbr": "SD",
+    "team_full": "San Diego Padres",
+    "primary_color": "#2F241D",
+    "secondary_color": "#FFC425",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/SD.png"
+  },
+  {
+    "team_abbr": "SEA",
+    "team_full": "Seattle Mariners",
+    "primary_color": "#0C2C56",
+    "secondary_color": "#005C5C",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/SEA.png"
+  },
+  {
+    "team_abbr": "SF",
+    "team_full": "San Francisco Giants",
+    "primary_color": "#FD5A1E",
+    "secondary_color": "#27251F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/SF.png"
+  },
+  {
+    "team_abbr": "STL",
+    "team_full": "St. Louis Cardinals",
+    "primary_color": "#C41E3A",
+    "secondary_color": "#0C2340",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/STL.png"
+  },
+  {
+    "team_abbr": "TB",
+    "team_full": "Tampa Bay Rays",
+    "primary_color": "#092C5C",
+    "secondary_color": "#8FBCE6",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/TB.png"
+  },
+  {
+    "team_abbr": "TEX",
+    "team_full": "Texas Rangers",
+    "primary_color": "#003278",
+    "secondary_color": "#C0111F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/TEX.png"
+  },
+  {
+    "team_abbr": "TOR",
+    "team_full": "Toronto Blue Jays",
+    "primary_color": "#134A8E",
+    "secondary_color": "#E8291C",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/TOR.png"
+  },
+  {
+    "team_abbr": "MIN",
+    "team_full": "Minnesota Twins",
+    "primary_color": "#002B5C",
+    "secondary_color": "#D31145",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/MIN.png"
+  },
+  {
+    "team_abbr": "PHI",
+    "team_full": "Philadelphia Phillies",
+    "primary_color": "#E81828",
+    "secondary_color": "#002D72",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/PHI.png"
+  },
+  {
+    "team_abbr": "ATL",
+    "team_full": "Atlanta Braves",
+    "primary_color": "#CE1141",
+    "secondary_color": "#13274F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/ATL.png"
+  },
+  {
+    "team_abbr": "CWS",
+    "team_full": "Chicago White Sox",
+    "primary_color": "#27251F",
+    "secondary_color": "#C4CED4",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/CWS.png"
+  },
+  {
+    "team_abbr": "MIA",
+    "team_full": "Miami Marlins",
+    "primary_color": "#00A3E0",
+    "secondary_color": "#EF3340",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/MIA.png"
+  },
+  {
+    "team_abbr": "NYY",
+    "team_full": "New York Yankees",
+    "primary_color": "#003087",
+    "secondary_color": "#E4002B",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/NYY.png"
+  },
+  {
+    "team_abbr": "MIL",
+    "team_full": "Milwaukee Brewers",
+    "primary_color": "#12284B",
+    "secondary_color": "#FFC52F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/MIL.png"
+  },
+  {
+    "team_abbr": "LAA",
+    "team_full": "Los Angeles Angels",
+    "primary_color": "#BA0021",
+    "secondary_color": "#003263",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/LAA.png"
+  },
+  {
+    "team_abbr": "AZ",
+    "team_full": "Arizona Diamondbacks",
+    "primary_color": "#A71930",
+    "secondary_color": "#E3D4AD",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/AZ.png"
+  },
+  {
+    "team_abbr": "BAL",
+    "team_full": "Baltimore Orioles",
+    "primary_color": "#DF4601",
+    "secondary_color": "#000000",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/BAL.png"
+  },
+  {
+    "team_abbr": "BOS",
+    "team_full": "Boston Red Sox",
+    "primary_color": "#BD3039",
+    "secondary_color": "#0C2340",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/BOS.png"
+  },
+  {
+    "team_abbr": "CHC",
+    "team_full": "Chicago Cubs",
+    "primary_color": "#0E3386",
+    "secondary_color": "#CC3433",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/CHC.png"
+  },
+  {
+    "team_abbr": "CIN",
+    "team_full": "Cincinnati Reds",
+    "primary_color": "#C6011F",
+    "secondary_color": "#000000",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/CIN.png"
+  },
+  {
+    "team_abbr": "CLE",
+    "team_full": "Cleveland Guardians",
+    "primary_color": "#0C2340",
+    "secondary_color": "#E31937",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/CLE.png"
+  },
+  {
+    "team_abbr": "COL",
+    "team_full": "Colorado Rockies",
+    "primary_color": "#33006F",
+    "secondary_color": "#C4CED4",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/COL.png"
+  },
+  {
+    "team_abbr": "DET",
+    "team_full": "Detroit Tigers",
+    "primary_color": "#0C2340",
+    "secondary_color": "#FA4616",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/DET.png"
+  },
+  {
+    "team_abbr": "HOU",
+    "team_full": "Houston Astros",
+    "primary_color": "#002D62",
+    "secondary_color": "#EB6E1F",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/HOU.png"
+  },
+  {
+    "team_abbr": "KC",
+    "team_full": "Kansas City Royals",
+    "primary_color": "#004687",
+    "secondary_color": "#BD9B60",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/KC.png"
+  },
+  {
+    "team_abbr": "LAD",
+    "team_full": "Los Angeles Dodgers",
+    "primary_color": "#005A9C",
+    "secondary_color": "#A5ACAF",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/LAD.png"
+  },
+  {
+    "team_abbr": "WSH",
+    "team_full": "Washington Nationals",
+    "primary_color": "#AB0003",
+    "secondary_color": "#14225A",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/WSH.png"
+  },
+  {
+    "team_abbr": "NYM",
+    "team_full": "New York Mets",
+    "primary_color": "#002D72",
+    "secondary_color": "#FF5910",
+    "logo_url": "https://a.espncdn.com/i/teamlogos/mlb/500/NYM.png"
+  }
+]

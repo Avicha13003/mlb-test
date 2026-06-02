@@ -1,0 +1,31 @@
+﻿DATE,TEAM,VENUE,LAT,LON,WIND_DEG,WIND_MPH,TEMP_F,HUMIDITY,PRECIP_PROB,WEATHER_CODE
+2026-06-02,tampa bay rays,Tropicana Field,27.98,-82.5062,314,9.0,91.72,50,0,1100
+2026-06-02,detroit tigers,Tropicana Field,27.98,-82.5062,314,9.0,91.72,50,0,1100
+2026-06-02,philadelphia phillies,Citizens Bank Park,39.9061,-75.1665,39,9.2,76.53,30,0,1101
+2026-06-02,san diego padres,Citizens Bank Park,39.9061,-75.1665,39,9.2,76.53,30,0,1101
+2026-06-02,boston red sox,Fenway Park,42.3467,-71.0972,114,2.8,74.66,33,0,1102
+2026-06-02,baltimore orioles,Fenway Park,42.3467,-71.0972,114,2.8,74.66,33,0,1102
+2026-06-02,washington nationals,Nationals Park,38.873,-77.0074,15,6.9,75.0,28,0,1000
+2026-06-02,miami marlins,Nationals Park,38.873,-77.0074,15,6.9,75.0,28,0,1000
+2026-06-02,new york yankees,Yankee Stadium,27.98,-82.5062,314,9.0,91.72,50,0,1100
+2026-06-02,cleveland guardians,Yankee Stadium,27.98,-82.5062,314,9.0,91.72,50,0,1100
+2026-06-02,cincinnati reds,Great American Ball Park,39.0979,-84.5068,25,12.4,78.13,32,0,1000
+2026-06-02,kansas city royals,Great American Ball Park,39.0979,-84.5068,25,12.4,78.13,32,0,1000
+2026-06-02,atlanta braves,Truist Park,33.8907,-84.4677,59,9.4,80.24,54,5,4000
+2026-06-02,toronto blue jays,Truist Park,33.8907,-84.4677,59,9.4,80.24,54,5,4000
+2026-06-02,minnesota twins,Target Field,44.9817,-93.2776,188,8.4,82.6,34,0,1000
+2026-06-02,chicago white sox,Target Field,44.9817,-93.2776,188,8.4,82.6,34,0,1000
+2026-06-02,milwaukee brewers,American Family Field,43.028,-87.9712,73,9.2,67.53,41,0,1000
+2026-06-02,san francisco giants,American Family Field,43.028,-87.9712,73,9.2,67.53,41,0,1000
+2026-06-02,st. louis cardinals,Busch Stadium,38.6226,-90.1928,91,11.5,81.7,43,0,1000
+2026-06-02,texas rangers,Busch Stadium,38.6226,-90.1928,91,11.5,81.7,43,0,1000
+2026-06-02,chicago cubs,Wrigley Field,41.9484,-87.6553,62,13.6,68.25,49,0,1000
+2026-06-02,athletics,Wrigley Field,41.9484,-87.6553,62,13.6,68.25,49,0,1000
+2026-06-02,houston astros,Daikin Park,29.7573,-95.3555,73,8.6,90.0,62,0,1102
+2026-06-02,pittsburgh pirates,Daikin Park,29.7573,-95.3555,73,8.6,90.0,62,0,1102
+2026-06-02,los angeles angels,Angel Stadium,33.8003,-117.8827,242,7.1,73.26,53,0,1000
+2026-06-02,colorado rockies,Angel Stadium,33.8003,-117.8827,242,7.1,73.26,53,0,1000
+2026-06-02,arizona diamondbacks,Chase Field,33.4453,-112.0667,261,5.7,99.68,11,0,1000
+2026-06-02,los angeles dodgers,Chase Field,33.4453,-112.0667,261,5.7,99.68,11,0,1000
+2026-06-02,seattle mariners,T-Mobile Park,47.5914,-122.3325,304,7.0,73.76,43,0,1000
+2026-06-02,new york mets,T-Mobile Park,47.5914,-122.3325,304,7.0,73.76,43,0,1000

@@ -1,0 +1,31 @@
+﻿DATE,TEAM,OPP,PARK_FACTOR,ELEVATION_FT,ROOF,WIND_SCALAR,WIND_LABEL
+2026-06-02,tampa bay rays,detroit tigers,0.86,44,closed,1.0,neutral
+2026-06-02,detroit tigers,tampa bay rays,0.86,44,closed,1.0,neutral
+2026-06-02,philadelphia phillies,san diego padres,1.12,9,open,1.0,neutral
+2026-06-02,san diego padres,philadelphia phillies,1.12,9,open,1.0,neutral
+2026-06-02,boston red sox,baltimore orioles,0.91,20,open,0.9,unfavorable
+2026-06-02,baltimore orioles,boston red sox,0.91,20,open,0.9,unfavorable
+2026-06-02,washington nationals,miami marlins,0.92,25,retractable,1.0,neutral
+2026-06-02,miami marlins,washington nationals,0.92,25,retractable,1.0,neutral
+2026-06-02,new york yankees,cleveland guardians,1.2,54,open,1.25,favorable
+2026-06-02,cleveland guardians,new york yankees,1.2,54,open,1.25,favorable
+2026-06-02,cincinnati reds,kansas city royals,1.24,683,open,1.0,neutral
+2026-06-02,kansas city royals,cincinnati reds,1.24,683,open,1.0,neutral
+2026-06-02,atlanta braves,toronto blue jays,0.98,1050,open,1.0,neutral
+2026-06-02,toronto blue jays,atlanta braves,0.98,1050,open,1.0,neutral
+2026-06-02,minnesota twins,chicago white sox,0.96,812,open,1.0,neutral
+2026-06-02,chicago white sox,minnesota twins,0.96,812,open,1.0,neutral
+2026-06-02,milwaukee brewers,san francisco giants,1.1,635,retractable,0.9,unfavorable
+2026-06-02,san francisco giants,milwaukee brewers,1.1,635,retractable,0.9,unfavorable
+2026-06-02,st. louis cardinals,texas rangers,1.07,455,open,0.9,unfavorable
+2026-06-02,texas rangers,st. louis cardinals,1.07,455,open,0.9,unfavorable
+2026-06-02,chicago cubs,athletics,1.04,596,open,1.0,neutral
+2026-06-02,athletics,chicago cubs,1.04,596,open,1.0,neutral
+2026-06-02,houston astros,pittsburgh pirates,1.06,40,retractable,0.9,unfavorable
+2026-06-02,pittsburgh pirates,houston astros,1.06,40,retractable,0.9,unfavorable
+2026-06-02,los angeles angels,colorado rockies,0.9,160,open,1.0,neutral
+2026-06-02,colorado rockies,los angeles angels,0.9,160,open,1.0,neutral
+2026-06-02,arizona diamondbacks,los angeles dodgers,1.11,1061,retractable,1.25,favorable
+2026-06-02,los angeles dodgers,arizona diamondbacks,1.11,1061,retractable,1.25,favorable
+2026-06-02,seattle mariners,new york mets,0.94,10,retractable,1.25,favorable
+2026-06-02,new york mets,seattle mariners,0.94,10,retractable,1.25,favorable

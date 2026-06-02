@@ -929,6 +929,109 @@ def _id_from_player_rows(df: pd.DataFrame, name: str, id_cols: list[str]) -> obj
     return np.nan
 
 
+def load_bvp_baseline() -> pd.DataFrame:
+    """Load optional BvP baseline from the published app folder or bundled starter data."""
+    candidates = [
+        DATA_DIR / "mlb_bvp_baseline_master.csv",
+        ROOT / "starter_data" / "data" / "mlb_bvp_baseline_master.csv",
+        ROOT / "data_starter" / "mlb_bvp_baseline_master.csv",
+    ]
+    for p in candidates:
+        df = load_csv(p)
+        if not df.empty:
+            df = df.copy()
+            df.columns = [str(c).strip() for c in df.columns]
+            return df
+    return pd.DataFrame()
+
+
+def _coalesce_first(row: pd.Series, cols: list[str], default=np.nan):
+    for c in cols:
+        if c in row.index and pd.notna(row.get(c)) and str(row.get(c)).strip() != "":
+            return row.get(c)
+    return default
+
+
+def _bvp_id_columns(bvp: pd.DataFrame) -> tuple[str | None, str | None]:
+    batter_cols = ["batter_id", "BATTER_ID", "PLAYER_ID", "ENTITY_ID"]
+    pitcher_cols = ["pitcher_id", "PITCHER_ID", "OPP_PITCHER_ID", "MATCHUP_PITCHER_ID"]
+    b_col = next((c for c in batter_cols if c in bvp.columns), None)
+    p_col = next((c for c in pitcher_cols if c in bvp.columns), None)
+    return b_col, p_col
+
+
+def _bvp_name_columns(bvp: pd.DataFrame) -> tuple[str | None, str | None]:
+    batter_cols = ["batter_name", "BATTER_NAME", "PLAYER_NAME", "player_name", "batter_name_norm"]
+    pitcher_cols = ["pitcher_name", "PITCHER_NAME", "OPP_PITCHER_NAME", "pitcher_name_norm"]
+    b_col = next((c for c in batter_cols if c in bvp.columns), None)
+    p_col = next((c for c in pitcher_cols if c in bvp.columns), None)
+    return b_col, p_col
+
+
+def find_bvp_match(bvp: pd.DataFrame, batter: str, pitcher: str, bid, pid) -> pd.DataFrame:
+    """Find exact BvP by IDs first, then fall back to normalized names."""
+    if bvp is None or bvp.empty:
+        return pd.DataFrame()
+    d = bvp.copy()
+    b_col, p_col = _bvp_id_columns(d)
+    if b_col and p_col and pd.notna(bid) and pd.notna(pid):
+        d[b_col] = pd.to_numeric(d[b_col], errors="coerce")
+        d[p_col] = pd.to_numeric(d[p_col], errors="coerce")
+        exact = d[(d[b_col] == float(bid)) & (d[p_col] == float(pid))].copy()
+        if not exact.empty:
+            return exact
+    bn_col, pn_col = _bvp_name_columns(d)
+    if bn_col and pn_col and batter and pitcher:
+        bq = str(batter).strip().lower()
+        pq = str(pitcher).strip().lower()
+        d["_b_name"] = d[bn_col].astype(str).str.strip().str.lower()
+        d["_p_name"] = d[pn_col].astype(str).str.strip().str.lower()
+        exact = d[(d["_b_name"].eq(bq)) & (d["_p_name"].eq(pq))].copy()
+        if exact.empty:
+            exact = d[(d["_b_name"].str.contains(re.escape(bq), na=False)) & (d["_p_name"].str.contains(re.escape(pq), na=False))].copy()
+        if not exact.empty:
+            return exact.drop(columns=["_b_name", "_p_name"], errors="ignore")
+    return pd.DataFrame()
+
+
+def render_matchup_snapshot(batter: str, pitcher: str, bc: pd.DataFrame, pc: pd.DataFrame, b_logs: pd.DataFrame, p_logs: pd.DataFrame) -> None:
+    """Always show a useful matchup summary even when exact BvP history is unavailable."""
+    def num(frame, cols, default=np.nan):
+        if frame is None or frame.empty:
+            return default
+        row = frame.iloc[0]
+        for c in cols:
+            if c in frame.columns and pd.notna(row.get(c)):
+                return pd.to_numeric(pd.Series([row.get(c)]), errors="coerce").iloc[0]
+        return default
+
+    hitter_hr = num(bc, ["HOME_RUNS", "HR", "statcast_batter_hr"], 0)
+    hitter_hits = num(bc, ["HITS", "hits", "statcast_batter_hits"], 0)
+    hitter_tb = num(bc, ["TOTAL_BASES", "TB", "tb", "statcast_batter_tb"], 0)
+    pitcher_k = num(pc, ["STRIKEOUTS", "so_recorded", "statcast_pitcher_so_recorded"], 0)
+    pitcher_hr_allowed = num(pc, ["HOME_RUNS_ALLOWED", "hr_allowed", "statcast_pitcher_hr_allowed"], 0)
+    pitcher_hits_allowed = num(pc, ["HITS_ALLOWED", "hits_allowed", "statcast_pitcher_hits_allowed"], 0)
+
+    recent_h = pd.to_numeric(b_logs.get("HITS", pd.Series(dtype=float)), errors="coerce").tail(10).mean() if b_logs is not None and not b_logs.empty and "HITS" in b_logs.columns else np.nan
+    recent_tb = pd.to_numeric(b_logs.get("TOTAL_BASES", b_logs.get("TB", pd.Series(dtype=float))), errors="coerce").tail(10).mean() if b_logs is not None and not b_logs.empty and ("TOTAL_BASES" in b_logs.columns or "TB" in b_logs.columns) else np.nan
+    recent_pk = pd.to_numeric(p_logs.get("STRIKEOUTS", pd.Series(dtype=float)), errors="coerce").tail(10).mean() if p_logs is not None and not p_logs.empty and "STRIKEOUTS" in p_logs.columns else np.nan
+
+    rows = [
+        {"view": "Hitter season", "player": batter, "metric": "Hits", "value": hitter_hits},
+        {"view": "Hitter season", "player": batter, "metric": "Total Bases", "value": hitter_tb},
+        {"view": "Hitter season", "player": batter, "metric": "Home Runs", "value": hitter_hr},
+        {"view": "Hitter recent", "player": batter, "metric": "Avg hits last 10", "value": recent_h},
+        {"view": "Hitter recent", "player": batter, "metric": "Avg TB last 10", "value": recent_tb},
+        {"view": "Pitcher season", "player": pitcher, "metric": "Strikeouts", "value": pitcher_k},
+        {"view": "Pitcher season", "player": pitcher, "metric": "Hits Allowed", "value": pitcher_hits_allowed},
+        {"view": "Pitcher season", "player": pitcher, "metric": "HR Allowed", "value": pitcher_hr_allowed},
+        {"view": "Pitcher recent", "player": pitcher, "metric": "Avg K last 10", "value": recent_pk},
+    ]
+    snap = pd.DataFrame(rows)
+    snap["value"] = pd.to_numeric(snap["value"], errors="coerce").round(3)
+    show_df("Matchup snapshot from included season data", snap, max_rows=20)
+
+
 def render_matchup_lab(batter_season: pd.DataFrame, pitcher_season: pd.DataFrame, batter_master: pd.DataFrame, pitcher_master: pd.DataFrame, rolling_latest: pd.DataFrame) -> None:
     st.markdown("### Matchup lab")
     st.caption("Pick a hitter and pitcher to review recent form, season profile, and optional BvP baseline if included.")
@@ -954,17 +1057,21 @@ def render_matchup_lab(batter_season: pd.DataFrame, pitcher_season: pd.DataFrame
         if not pc.empty: show_df("Pitcher season profile", pc, max_rows=3)
         show_df("Pitcher recent logs", p_logs.sort_values("DATE", ascending=False) if not p_logs.empty and "DATE" in p_logs.columns else p_logs, max_rows=10)
     if batter and pitcher:
-        bvp = load_csv(DATA_DIR / "mlb_bvp_baseline_master.csv")
-        bid = _id_from_player_rows(pd.concat([batter_season, batter_master], ignore_index=True, sort=False), batter, ["PLAYER_ID", "ENTITY_ID", "batter_id"])
-        pid = _id_from_player_rows(pd.concat([pitcher_season, pitcher_master], ignore_index=True, sort=False), pitcher, ["PITCHER_ID", "PLAYER_ID", "ENTITY_ID", "pitcher_id"])
+        bvp = load_bvp_baseline()
+        bid = _id_from_player_rows(pd.concat([batter_season, batter_master, rolling_latest], ignore_index=True, sort=False), batter, ["PLAYER_ID", "ENTITY_ID", "batter_id"])
+        pid = _id_from_player_rows(pd.concat([pitcher_season, pitcher_master, rolling_latest], ignore_index=True, sort=False), pitcher, ["PITCHER_ID", "PLAYER_ID", "ENTITY_ID", "pitcher_id"])
         st.markdown("#### Batter vs pitcher baseline")
-        if not bvp.empty and pd.notna(bid) and pd.notna(pid) and {"batter_id", "pitcher_id"}.issubset(bvp.columns):
-            bvp["batter_id"] = pd.to_numeric(bvp["batter_id"], errors="coerce")
-            bvp["pitcher_id"] = pd.to_numeric(bvp["pitcher_id"], errors="coerce")
-            match = bvp[(bvp["batter_id"] == float(bid)) & (bvp["pitcher_id"] == float(pid))]
-            show_df("BvP match", match, max_rows=10)
+        if not bvp.empty:
+            match = find_bvp_match(bvp, batter, pitcher, bid, pid)
+            if not match.empty:
+                st.success("Exact BvP row found in the included baseline.")
+                show_df("BvP match", match, max_rows=10)
+            else:
+                st.info("No exact historical BvP row found for this hitter/pitcher pair in the included starter data. This is normal for many matchups. The snapshot below still uses the included season logs and profiles.")
+                render_matchup_snapshot(batter, pitcher, bc, pc, b_logs, p_logs)
         else:
-            st.info("No BvP baseline file or ID match found. Pro users can build it with build_bvp_baseline.py.")
+            st.info("No BvP baseline file is included yet. To add true BvP rows, run build_bvp_baseline.py after installing pybaseball, or add data/mlb_bvp_baseline_master.csv to dashboard_publish/data.")
+            render_matchup_snapshot(batter, pitcher, bc, pc, b_logs, p_logs)
         st.markdown("#### Matchup checklist")
         check = pd.DataFrame([
             {"factor": "Recent hitter form", "what_to_check": "Last 5/10 hits, total bases, HRR trend", "why_it_matters": "Models can lag sudden hot/cold streaks."},

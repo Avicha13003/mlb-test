@@ -519,6 +519,166 @@ def render_pick_cards(title: str, df: pd.DataFrame, max_cards: int = 18):
     render_html_block("".join(parts), height=height)
 
 
+
+
+def _safe_get(row: pd.Series, *names, default=""):
+    for name in names:
+        if name in row.index:
+            val = row.get(name)
+            if pd.notna(val) and str(val).strip() != "":
+                return val
+    return default
+
+
+def _format_odds(x) -> str:
+    try:
+        if pd.isna(x):
+            return "—"
+        return f"{int(float(x)):+d}"
+    except Exception:
+        return esc(x) if x not in [None, ""] else "—"
+
+
+def _extract_parlay_legs(row: pd.Series) -> list[dict]:
+    # Return P1/P2/... parlay legs, or a single-leg fallback for simple files.
+    legs = []
+    for i in range(1, 9):
+        player = _safe_get(row, f"P{i}_PLAYER", f"LEG{i}_PLAYER", default="")
+        if not str(player).strip():
+            continue
+        legs.append({
+            "player": player,
+            "team": _safe_get(row, f"P{i}_TEAM", f"LEG{i}_TEAM", default=""),
+            "market": _safe_get(row, f"P{i}_MARKET", f"LEG{i}_MARKET", default=""),
+            "line": _safe_get(row, f"P{i}_LINE", f"LEG{i}_LINE", default=""),
+            "odds": _safe_get(row, f"P{i}_ODDS", f"LEG{i}_ODDS", default=""),
+            "prob": _safe_get(row, f"P{i}_PROB", f"P{i}_MODEL_PROB", f"LEG{i}_PROB", default=np.nan),
+            "edge": _safe_get(row, f"P{i}_EDGE", f"LEG{i}_EDGE", default=np.nan),
+            "pid": _safe_get(row, f"P{i}_ENTITY_ID", f"P{i}_PLAYER_ID", f"LEG{i}_ENTITY_ID", default=np.nan),
+            "game": _safe_get(row, f"P{i}_GAME", "GAME_KEY", "GAME_ID", default=""),
+        })
+
+    if not legs:
+        player = _safe_get(row, "PLAYER_NAME", "PLAYER", "ENTITY_NAME", default="")
+        if str(player).strip():
+            legs.append({
+                "player": player,
+                "team": _safe_get(row, "TEAM", "TEAM_OUT", default=""),
+                "market": _safe_get(row, "MARKET_FAMILY", "MARKET", default=""),
+                "line": _safe_get(row, "LINE", "LINE_OUT", default=""),
+                "odds": _safe_get(row, "ODDS", "ODDS_OUT", default=""),
+                "prob": _safe_get(row, "MODEL_PROB_FINAL", "MODEL_PROB_USED", "MODEL_PROB_META", default=np.nan),
+                "edge": _safe_get(row, "EDGE", "EDGE_META", default=np.nan),
+                "pid": _safe_get(row, "ENTITY_ID", "PLAYER_ID", default=np.nan),
+                "game": _safe_get(row, "GAME_KEY", "GAME_ID", default=""),
+            })
+    return legs
+
+
+def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
+    legs = _extract_parlay_legs(row)[:max_legs]
+    style = _safe_get(row, "STYLE", "PRODUCT", "ACTION", default=label)
+    num_legs = _safe_get(row, "NUM_LEGS", default=len(legs))
+    model_prob = _safe_get(row, "PARLAY_MODEL_PROB", "MODEL_PROB_FINAL", "MODEL_PROB_META", default=np.nan)
+    book_prob = _safe_get(row, "PARLAY_BOOK_PROB", default=np.nan)
+    decimal = _safe_get(row, "PARLAY_DECIMAL", default=np.nan)
+    american = _safe_get(row, "PARLAY_AMERICAN", default=np.nan)
+    edge = _safe_get(row, "PARLAY_EDGE", "EDGE", "EDGE_META", default=np.nan)
+    score = _safe_get(row, "PARLAY_SCORE", "META_SCORE", default=np.nan)
+    reason = _safe_get(row, "REASON", default="")
+
+    leg_html = []
+    for leg in legs:
+        img = headshot_url(leg.get("pid"), leg.get("player"))
+        logo = logo_info(leg.get("team")).get("url", "")
+        market = str(leg.get("market", "")).upper()
+        line = leg.get("line", "")
+        line_txt = f"o{line}" if str(line).strip() and str(line).lower() != "nan" else ""
+        odds_txt = _format_odds(leg.get("odds"))
+        play = " ".join([x for x in [market, line_txt, odds_txt] if str(x).strip() and str(x) != "—"])
+        leg_html.append(f"""
+          <div class="leg-card">
+            <div class="leg-row">
+              <img src="{esc(img)}" class="leg-headshot" onerror="this.style.display='none'"/>
+              <div class="leg-main">
+                <div class="leg-player">{esc(leg.get('player'))}</div>
+                <div class="leg-play">{esc(play)}</div>
+                <div class="leg-sub">{esc(leg.get('team'))}</div>
+              </div>
+              <img src="{esc(logo)}" class="leg-logo" onerror="this.style.display='none'"/>
+            </div>
+            <div class="mini-chips">
+              <span>Model <b>{fmt_num(leg.get('prob'))}</b></span>
+              <span>Edge <b>{fmt_num(leg.get('edge'))}</b></span>
+            </div>
+          </div>
+        """)
+
+    if not leg_html:
+        leg_html.append('<div class="empty-leg">No leg details found for this row.</div>')
+
+    return f"""
+      <div class="parlay-card">
+        <div class="parlay-top">
+          <div>
+            <div class="parlay-eyebrow">{esc(label)}</div>
+            <div class="parlay-title">{esc(style)} • {esc(num_legs)} legs</div>
+            <div class="parlay-reason">{esc(reason)}</div>
+          </div>
+          <div class="parlay-odds">{_format_odds(american)}</div>
+        </div>
+        <div class="parlay-stats">
+          <span>Model <b>{fmt_num(model_prob)}</b></span>
+          <span>Book <b>{fmt_num(book_prob)}</b></span>
+          <span>Decimal <b>{fmt_num(decimal, 2)}</b></span>
+          <span>Edge <b>{fmt_num(edge)}</b></span>
+          <span>Score <b>{fmt_num(score)}</b></span>
+        </div>
+        <div class="legs-grid">{''.join(leg_html)}</div>
+      </div>
+    """
+
+
+def render_parlay_card_board(title: str, df: pd.DataFrame, *, label: str | None = None, max_cards: int = 12):
+    st.subheader(title)
+    if df is None or df.empty:
+        st.info("No parlay/meta rows found yet. Run the daily pipeline to populate this board.")
+        return
+    label = label or title
+    d = df.head(max_cards).copy()
+    html_parts = [base_html_start(), """
+    <style>
+      .parlay-board{display:grid;grid-template-columns:repeat(auto-fit,minmax(520px,1fr));gap:18px;padding:8px 2px 18px;}
+      .parlay-card{background:linear-gradient(135deg,#111827,#0f172a);border:1px solid rgba(148,163,184,.18);border-radius:20px;padding:16px;box-shadow:0 16px 38px rgba(0,0,0,.42);overflow:hidden;}
+      .parlay-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:12px;}
+      .parlay-eyebrow{font-size:.78rem;color:#93c5fd;text-transform:uppercase;letter-spacing:.09em;font-weight:900;margin-bottom:5px;}
+      .parlay-title{font-size:1.2rem;color:#fff;font-weight:900;line-height:1.1;}
+      .parlay-reason{font-size:.83rem;color:#94a3b8;margin-top:6px;line-height:1.35;max-width:720px;}
+      .parlay-odds{background:linear-gradient(135deg,#1e3a8a,#0f172a);border:1px solid rgba(96,165,250,.35);border-radius:14px;padding:10px 14px;color:#fff;font-size:1.12rem;font-weight:900;white-space:nowrap;}
+      .parlay-stats{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px;}
+      .parlay-stats span,.mini-chips span{background:#1f2937;border:1px solid rgba(148,163,184,.18);border-radius:999px;padding:6px 10px;color:#cbd5e1;font-size:.82rem;}
+      .parlay-stats b,.mini-chips b{color:#fff;margin-left:5px;}
+      .legs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:10px;}
+      .leg-card{background:#0b1220;border:1px solid rgba(148,163,184,.14);border-radius:16px;padding:12px;min-height:116px;}
+      .leg-row{display:flex;align-items:flex-start;gap:10px;}
+      .leg-headshot{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid rgba(148,163,184,.25);background:#111827;flex:0 0 auto;}
+      .leg-logo{width:34px;height:34px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,.45));margin-left:auto;}
+      .leg-main{min-width:0;flex:1;}
+      .leg-player{font-weight:900;color:#fff;font-size:.98rem;line-height:1.1;}
+      .leg-play{display:inline-block;margin-top:6px;background:rgba(96,165,250,.13);border:1px solid rgba(96,165,250,.28);color:#dbeafe;padding:5px 8px;border-radius:10px;font-weight:800;font-size:.82rem;}
+      .leg-sub{color:#94a3b8;font-size:.8rem;margin-top:5px;line-height:1.2;}
+      .mini-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+      .empty-leg{color:#94a3b8;border:1px dashed rgba(148,163,184,.25);border-radius:14px;padding:16px;}
+      @media(max-width:700px){.parlay-board{grid-template-columns:1fr}.legs-grid{grid-template-columns:1fr}}
+    </style>
+    <div class="parlay-board">
+    """]
+    for _, row in d.iterrows():
+        html_parts.append(_parlay_card_html(row, label=label))
+    html_parts.append('</div></body></html>')
+    height = min(2200, 320 + 310 * len(d))
+    render_html_block("".join(html_parts), height=height)
+
 def render_results_cards(title: str, df: pd.DataFrame, max_cards: int = 18):
     st.subheader(title)
     if df is None or df.empty:
@@ -1264,7 +1424,10 @@ with tab_parlays:
     }
     for label, prefix in parlay_files.items():
         p = find_file(prefix, selected_date, selected_slate)
-        show_df(label, load_csv(p) if p else pd.DataFrame(), max_rows=100)
+        df_parlay = load_csv(p) if p else pd.DataFrame()
+        render_parlay_card_board(label, df_parlay, label=label, max_cards=15 if "Same-game" in label or "Best single" in label else 6)
+        with st.expander(f"Raw table: {label}", expanded=False):
+            show_df(label, df_parlay, max_rows=100)
 
 with tab_results:
     history = load_csv(LOGS_DIR / "mlb_results_history.csv")

@@ -1,0 +1,34 @@
+MLB Meta Selection Summary
+==========================
+DATE: 2026-06-02
+SLATE: full
+
+Straight inputs loaded:
+  CANDIDATES: 280 rows from daily_out\daily_candidates_2026-06-02_full.csv
+  BEST5: 5 rows from daily_out\best5_2026-06-02_full.csv
+  BEST_SINGLE: 15 rows from daily_out\mlb_best_single_per_game_2026-06-02_full.csv
+  TOP10_HRR: 10 rows from daily_out\top10_2026-06-02_full_HRR.csv
+  TOP10_K: 10 rows from daily_out\top10_2026-06-02_full_K.csv
+  SAFE_PARLAY: 1 rows from daily_out\mlb_safe_parlay_2026-06-02_full.csv
+  LADDER_PARLAY: 1 rows from daily_out\mlb_ladder_parlay_2026-06-02_full.csv
+  RISKY_PARLAY: 1 rows from daily_out\mlb_risky_parlay_2026-06-02_full.csv
+  SGP: 15 rows from daily_out\mlb_specific_game_parlays_2026-06-02_full.csv
+  BEST_SINGLE_PARLAY: 1 rows from daily_out\mlb_best_single_per_game_parlay_2026-06-02_full.csv
+
+Meta tuning:
+  MIN_STRAIGHT_PLAY_SCORE: 0.45
+  MIN_PREMIUM_SINGLE_SCORE: 0.5
+  MIN_CORE_MODEL_PROB: 0.405
+  MIN_H_MODEL_PROB: 0.455
+  MODE: BASE-only, HRR/K core, H support, EDGE display-only
+
+Play card rows: 5
+Play card markets: {'HRR': 4, 'K': 1}
+Top meta score: 0.9154
+
+Parlay actions:
+{'PUBLISH': 17, 'CONTENT_ONLY': 1, 'SKIP': 1}
+
+Files written:
+  daily_out\mlb_meta_play_card_2026-06-02_full.csv
+  daily_out\mlb_meta_recommendations_2026-06-02_full.csv

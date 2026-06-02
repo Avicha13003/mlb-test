@@ -1,0 +1,33 @@
+MLB Accuracy Summary
+====================
+
+rows: 73965
+date_min: 2026-03-25
+date_max: 2026-06-01
+overall_hit_rate: 0.3217
+avg_edge: -0.0971
+avg_model_prob: 0.2695
+
+Top markets by hit rate
+-----------------------
+MARKET_FAMILY  bets    hits  hit_rate  avg_edge  avg_model_prob   avg_odds
+          HRR  9582  4630.0  0.483198 -0.201189        0.321371 -28.721353
+            K  3575  1621.0  0.453427 -0.169318        0.339122 -19.090629
+            H 18359  7624.0  0.415273 -0.191682        0.266049 322.553298
+           BB 12686  3671.0  0.289374 -0.127638        0.200143 269.204004
+           TB 29763  6250.0  0.209992  0.016320        0.276122 432.546282
+
+Line type performance
+---------------------
+LINE_TYPE  bets     hits  hit_rate  avg_edge  avg_model_prob   avg_odds
+     BASE 32860  14764.0    0.4493 -0.221022        0.272020  15.276598
+      ALT 41105   9032.0   0.21973  0.001876        0.267481 519.773920
+
+Confidence tier performance
+---------------------------
+CONFIDENCE_TIER  bets     hits  hit_rate  avg_edge  avg_model_prob   avg_odds
+        UNKNOWN  2905   1290.0  0.444062 -0.164719        0.339034 -16.329088
+           LEAN  6763   3001.0  0.443738 -0.142235        0.335337  28.142540
+          ELITE  2819   1215.0  0.431004 -0.064111        0.391541  58.289464
+          SOLID  4827   1998.0  0.413922 -0.093706        0.372179  41.645328
+       VOLATILE 56651  16292.0  0.287585 -0.090240        0.243250 377.028896

@@ -693,10 +693,14 @@ def render_results_cards(title: str, df: pd.DataFrame, max_cards: int = 18):
         img = headshot_url(pid, name)
         logo = logo_info(team).get("url", "")
         market = r.get("MARKET_FAMILY", "")
-        line = r.get("LINE", "")
-        actual = r.get("ACTUAL", "")
-        hit = r.get("HIT", np.nan)
-        status = "HIT" if str(hit).strip() in {"1", "1.0", "True", "TRUE"} else "MISS" if str(hit).strip() in {"0", "0.0", "False", "FALSE"} else "PENDING"
+        line = r.get("LINE", r.get("RESULT_LINE", ""))
+        actual = r.get("ACTUAL", r.get("RESULT_ACTUAL", ""))
+        hit = r.get("HIT", r.get("PICK_HIT", np.nan))
+        raw_status = str(r.get("RESULT_STATUS", "")).strip().upper()
+        if raw_status in {"HIT", "MISS", "DNP", "PENDING", "VOID/REDUCED"}:
+            status = raw_status
+        else:
+            status = "HIT" if str(hit).strip() in {"1", "1.0", "True", "TRUE"} else "MISS" if str(hit).strip() in {"0", "0.0", "False", "FALSE"} else "PENDING"
         status_class = "hit" if status == "HIT" else "miss" if status == "MISS" else "warn"
         parts.append(f"""
         <div class="card">
@@ -720,6 +724,73 @@ def render_results_cards(title: str, df: pd.DataFrame, max_cards: int = 18):
     height = min(1600, 260 + 250 * ((min(len(d), max_cards) + 2) // 3))
     render_html_block("".join(parts), height=height)
 
+
+
+
+def load_product_result_file(prefix: str, run_date: str, slate: str, market: str | None = None) -> pd.DataFrame:
+    """Load scored product/result files from results/, daily_out/, data/, or logs/."""
+    p = find_file(prefix, run_date, slate, market)
+    return load_csv(p) if p else pd.DataFrame()
+
+
+def render_product_result_section(label: str, df: pd.DataFrame, *, kind: str = "results", max_rows: int = 150):
+    """Render one scored product result section with cards plus expandable raw table."""
+    st.markdown(f"### {label}")
+    if df is None or df.empty:
+        st.info(f"No {label.lower()} file found for the selected date/slate.")
+        return
+
+    if kind == "parlay":
+        render_parlay_card_board(label, df, label=label, max_cards=10)
+    elif kind == "summary":
+        show_df(label, df, max_rows=max_rows)
+    else:
+        sort_df = df.copy()
+        hit_col = "PICK_HIT" if "PICK_HIT" in sort_df.columns else "HIT" if "HIT" in sort_df.columns else None
+        if hit_col:
+            sort_df[hit_col] = pd.to_numeric(sort_df[hit_col], errors="coerce")
+            sort_df = sort_df.sort_values(hit_col, ascending=False, na_position="last")
+        render_results_cards(label, sort_df, max_cards=18)
+
+    with st.expander(f"Raw table: {label}", expanded=False):
+        show_df(label, df, max_rows=max_rows)
+
+
+def render_product_results_breakdown(run_date: str, slate: str):
+    """Show all scored product breakdown files created by run_mlb_results.py."""
+    st.markdown("## Product results breakdown")
+    st.caption("These sections read the scored product CSVs from the dashboard_publish/results folder after running the results pipeline.")
+
+    meta_compare = load_product_result_file("results_mlb_meta_performance_compare", run_date, slate)
+    if not meta_compare.empty:
+        render_product_result_section("Meta performance compare", meta_compare, kind="summary", max_rows=80)
+
+    product_sections = [
+        ("Meta play card results", "results_mlb_meta_play_card", "results"),
+        ("Best 5 results", "results_best5", "results"),
+        ("Daily candidates results", "results_daily_candidates", "results"),
+        ("Safe parlay results", "results_mlb_safe_parlay", "parlay"),
+        ("Ladder parlay results", "results_mlb_ladder_parlay", "parlay"),
+        ("Risky parlay results", "results_mlb_risky_parlay", "parlay"),
+        ("Same-game parlay results", "results_mlb_specific_game_parlays", "parlay"),
+        ("Best single per game results", "results_mlb_best_single_per_game", "results"),
+        ("Best single per game parlay results", "results_mlb_best_single_per_game_parlay", "parlay"),
+    ]
+
+    for label, prefix, kind in product_sections:
+        df = load_product_result_file(prefix, run_date, slate)
+        if not df.empty:
+            render_product_result_section(label, df, kind=kind, max_rows=150)
+
+    st.markdown("### Top 10 market results")
+    any_market = False
+    for market in TOP10_MARKETS:
+        df = load_product_result_file("results_top10", run_date, slate, market)
+        if not df.empty:
+            any_market = True
+            render_product_result_section(f"Top 10 {market} results", df, kind="results", max_rows=80)
+    if not any_market:
+        st.info("No scored top-10 market result files found yet for this selected date/slate.")
 
 def latest_batter_sample() -> pd.DataFrame:
     df = load_csv(DATA_DIR / "mlb_batter_gamelogs_master.csv")
@@ -1437,6 +1508,8 @@ with tab_results:
     else:
         day_history = history
     render_results_cards("Selected date results cards", day_history.sort_values("HIT", ascending=False) if not day_history.empty and "HIT" in day_history.columns else day_history, max_cards=24)
+    render_product_results_breakdown(selected_date, selected_slate)
+    st.markdown("## Core results tables")
     show_df("Actual results", actuals)
     show_df("Results history for selected date", day_history, max_rows=300)
     show_df("All results history", history, max_rows=300)

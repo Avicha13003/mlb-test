@@ -1,0 +1,1488 @@
+﻿DATE,ENTITY_ID,PLAYER_NAME,TEAM,MARKET_FAMILY,LINE,ALT_FLAG,LINE_TYPE,ACTUAL,HIT
+2026-06-02,802415.0,Chandler Simpson,tampa bay rays,H,1.5,0,BASE,0,0
+2026-06-02,691406.0,Junior Caminero,tampa bay rays,H,0.5,0,BASE,1,1
+2026-06-02,650490.0,Yandy Diaz,tampa bay rays,H,0.5,0,BASE,0,0
+2026-06-02,650402.0,Gleyber Torres,detroit tigers,H,0.5,0,BASE,1,1
+2026-06-02,663837.0,Matt Vierling,detroit tigers,H,0.5,0,BASE,2,1
+2026-06-02,666018.0,Jonathan Aranda,tampa bay rays,H,0.5,0,BASE,0,0
+2026-06-02,693307.0,Dillon Dingler,detroit tigers,H,0.5,0,BASE,0,0
+2026-06-02,682985.0,Riley Greene,detroit tigers,H,0.5,0,BASE,1,1
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,H,0.5,0,BASE,1,1
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,H,0.5,0,BASE,0,0
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,H,0.5,0,BASE,1,1
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,H,0.5,0,BASE,2,1
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,H,0.5,0,BASE,2,1
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,H,0.5,0,BASE,2,1
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,H,0.5,0,BASE,0,0
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,H,0.5,0,BASE,0,0
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,H,0.5,0,BASE,0,0
+2026-06-02,670097.0,Zack Short,detroit tigers,H,0.5,0,BASE,2,1
+2026-06-02,691406.0,Junior Caminero,tampa bay rays,HRR,1.5,0,BASE,1,0
+2026-06-02,650490.0,Yandy Diaz,tampa bay rays,HRR,1.5,0,BASE,0,0
+2026-06-02,802415.0,Chandler Simpson,tampa bay rays,HRR,1.5,0,BASE,0,0
+2026-06-02,666018.0,Jonathan Aranda,tampa bay rays,HRR,1.5,0,BASE,0,0
+2026-06-02,650402.0,Gleyber Torres,detroit tigers,HRR,1.5,0,BASE,3,1
+2026-06-02,663837.0,Matt Vierling,detroit tigers,HRR,1.5,0,BASE,5,1
+2026-06-02,693307.0,Dillon Dingler,detroit tigers,HRR,1.5,0,BASE,1,0
+2026-06-02,682985.0,Riley Greene,detroit tigers,HRR,1.5,0,BASE,3,1
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,HRR,1.5,0,BASE,0,0
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,HRR,1.5,0,BASE,1,0
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,HRR,1.5,0,BASE,4,1
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,HRR,1.5,0,BASE,1,0
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,HRR,1.5,0,BASE,2,1
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,HRR,1.5,0,BASE,6,1
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,HRR,0.5,0,BASE,0,0
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,HRR,0.5,0,BASE,0,0
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,HRR,0.5,0,BASE,0,0
+2026-06-02,670097.0,Zack Short,detroit tigers,HRR,0.5,0,BASE,4,1
+2026-06-02,691406.0,Junior Caminero,tampa bay rays,TB,1.5,0,BASE,1,0
+2026-06-02,650490.0,Yandy Diaz,tampa bay rays,TB,1.5,0,BASE,0,0
+2026-06-02,666018.0,Jonathan Aranda,tampa bay rays,TB,1.5,0,BASE,0,0
+2026-06-02,650402.0,Gleyber Torres,detroit tigers,TB,1.5,0,BASE,4,1
+2026-06-02,663837.0,Matt Vierling,detroit tigers,TB,1.5,0,BASE,5,1
+2026-06-02,802415.0,Chandler Simpson,tampa bay rays,TB,1.5,0,BASE,0,0
+2026-06-02,693307.0,Dillon Dingler,detroit tigers,TB,1.5,0,BASE,0,0
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,TB,1.5,1,ALT,3,1
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,TB,2.5,1,ALT,3,1
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,TB,3.5,1,ALT,3,0
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,TB,4.5,1,ALT,3,0
+2026-06-02,682985.0,Riley Greene,detroit tigers,TB,1.5,1,ALT,4,1
+2026-06-02,682985.0,Riley Greene,detroit tigers,TB,2.5,1,ALT,4,1
+2026-06-02,682985.0,Riley Greene,detroit tigers,TB,3.5,1,ALT,4,1
+2026-06-02,682985.0,Riley Greene,detroit tigers,TB,4.5,1,ALT,4,0
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,TB,1.5,1,ALT,0,0
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,TB,2.5,1,ALT,0,0
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,TB,3.5,1,ALT,0,0
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,TB,4.5,1,ALT,0,0
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,TB,1.5,1,ALT,5,1
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,TB,2.5,1,ALT,5,1
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,TB,3.5,1,ALT,5,1
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,TB,4.5,1,ALT,5,1
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,TB,1.5,1,ALT,0,0
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,TB,2.5,1,ALT,0,0
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,TB,3.5,1,ALT,0,0
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,TB,4.5,1,ALT,0,0
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,TB,1.5,1,ALT,2,1
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,TB,2.5,1,ALT,2,0
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,TB,3.5,1,ALT,2,0
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,TB,4.5,1,ALT,2,0
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,TB,1.5,1,ALT,3,1
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,TB,2.5,1,ALT,3,1
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,TB,3.5,1,ALT,3,0
+2026-06-02,670097.0,Zack Short,detroit tigers,TB,1.5,1,ALT,3,1
+2026-06-02,670097.0,Zack Short,detroit tigers,TB,2.5,1,ALT,3,1
+2026-06-02,670097.0,Zack Short,detroit tigers,TB,3.5,1,ALT,3,0
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,TB,1.5,1,ALT,0,0
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,TB,2.5,1,ALT,0,0
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,TB,3.5,1,ALT,0,0
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,TB,1.5,1,ALT,0,0
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,TB,2.5,1,ALT,0,0
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,TB,3.5,1,ALT,0,0
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,TB,1.5,1,ALT,1,0
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,TB,2.5,1,ALT,1,0
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,TB,3.5,1,ALT,1,0
+2026-06-02,666018.0,Jonathan Aranda,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,650402.0,Gleyber Torres,detroit tigers,BB,0.5,0,BASE,1,1
+2026-06-02,679529.0,Spencer Torkelson,detroit tigers,BB,0.5,0,BASE,1,1
+2026-06-02,680700.0,Richie Palacios,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,691406.0,Junior Caminero,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,650490.0,Yandy Diaz,tampa bay rays,BB,0.5,0,BASE,1,1
+2026-06-02,676439.0,Hunter Feduccia,tampa bay rays,BB,0.5,0,BASE,1,1
+2026-06-02,670097.0,Zack Short,detroit tigers,BB,0.5,0,BASE,0,0
+2026-06-02,693307.0,Dillon Dingler,detroit tigers,BB,0.5,0,BASE,0,0
+2026-06-02,683748.0,Victor Mesa Jr.,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,810938.0,Ben Williamson,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,668723.0,Ryan Vilade,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,682985.0,Riley Greene,detroit tigers,BB,0.5,0,BASE,1,1
+2026-06-02,663330.0,Jahmai Jones,detroit tigers,BB,0.5,0,BASE,0,0
+2026-06-02,656716.0,Zach McKinstry,detroit tigers,BB,0.5,0,BASE,1,1
+2026-06-02,802415.0,Chandler Simpson,tampa bay rays,BB,0.5,0,BASE,0,0
+2026-06-02,672761.0,Wenceel Perez,detroit tigers,BB,0.5,0,BASE,0,0
+2026-06-02,663837.0,Matt Vierling,detroit tigers,BB,0.5,0,BASE,0,0
+2026-06-02,656427.0,Jack Flaherty,detroit tigers,K,4.5,0,BASE,6,1
+2026-06-02,571927.0,Steven Matz,tampa bay rays,K,4.5,0,BASE,2,0
+2026-06-02,656427.0,Jack Flaherty,detroit tigers,K,3.5,1,ALT,6,1
+2026-06-02,656427.0,Jack Flaherty,detroit tigers,K,5.5,1,ALT,6,1
+2026-06-02,571927.0,Steven Matz,tampa bay rays,K,3.5,1,ALT,2,0
+2026-06-02,571927.0,Steven Matz,tampa bay rays,K,5.5,1,ALT,2,0
+2026-06-02,607208.0,Trea Turner,philadelphia phillies,H,1.5,0,BASE,2,1
+2026-06-02,665487.0,Fernando Tatis Jr.,san diego padres,H,1.5,0,BASE,3,1
+2026-06-02,547180.0,Bryce Harper,philadelphia phillies,H,0.5,0,BASE,1,1
+2026-06-02,664761.0,Alec Bohm,philadelphia phillies,H,0.5,0,BASE,0,0
+2026-06-02,609280.0,Miguel Andujar,san diego padres,H,0.5,0,BASE,2,1
+2026-06-02,669016.0,Brandon Marsh,philadelphia phillies,H,0.5,0,BASE,4,1
+2026-06-02,657757.0,Gavin Sheets,san diego padres,H,0.5,0,BASE,1,1
+2026-06-02,701538.0,Jackson Merrill,san diego padres,H,0.5,0,BASE,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,H,0.5,0,BASE,0,0
+2026-06-02,592518.0,Manny Machado,san diego padres,H,0.5,0,BASE,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,H,0.5,0,BASE,0,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,H,0.5,0,BASE,1,1
+2026-06-02,656941.0,Kyle Schwarber,philadelphia phillies,H,0.5,0,BASE,0,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,H,0.5,0,BASE,1,1
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,H,0.5,0,BASE,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,H,0.5,0,BASE,0,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,H,0.5,0,BASE,0,0
+2026-06-02,607208.0,Trea Turner,philadelphia phillies,HRR,1.5,0,BASE,3,1
+2026-06-02,547180.0,Bryce Harper,philadelphia phillies,HRR,1.5,0,BASE,5,1
+2026-06-02,665487.0,Fernando Tatis Jr.,san diego padres,HRR,1.5,0,BASE,4,1
+2026-06-02,656941.0,Kyle Schwarber,philadelphia phillies,HRR,1.5,0,BASE,0,0
+2026-06-02,664761.0,Alec Bohm,philadelphia phillies,HRR,1.5,0,BASE,0,0
+2026-06-02,669016.0,Brandon Marsh,philadelphia phillies,HRR,1.5,0,BASE,4,1
+2026-06-02,609280.0,Miguel Andujar,san diego padres,HRR,1.5,0,BASE,2,1
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,HRR,1.5,0,BASE,0,0
+2026-06-02,657757.0,Gavin Sheets,san diego padres,HRR,1.5,0,BASE,4,1
+2026-06-02,701538.0,Jackson Merrill,san diego padres,HRR,1.5,0,BASE,0,0
+2026-06-02,592518.0,Manny Machado,san diego padres,HRR,1.5,0,BASE,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,HRR,1.5,0,BASE,0,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,HRR,1.5,0,BASE,1,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,HRR,1.5,0,BASE,1,0
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,HRR,1.5,0,BASE,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,HRR,0.5,0,BASE,0,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,HRR,0.5,0,BASE,0,0
+2026-06-02,607208.0,Trea Turner,philadelphia phillies,TB,1.5,0,BASE,2,1
+2026-06-02,665487.0,Fernando Tatis Jr.,san diego padres,TB,1.5,0,BASE,4,1
+2026-06-02,656941.0,Kyle Schwarber,philadelphia phillies,TB,1.5,0,BASE,0,0
+2026-06-02,547180.0,Bryce Harper,philadelphia phillies,TB,1.5,0,BASE,4,1
+2026-06-02,657757.0,Gavin Sheets,san diego padres,TB,1.5,0,BASE,4,1
+2026-06-02,664761.0,Alec Bohm,philadelphia phillies,TB,1.5,0,BASE,0,0
+2026-06-02,609280.0,Miguel Andujar,san diego padres,TB,1.5,0,BASE,2,1
+2026-06-02,592518.0,Manny Machado,san diego padres,TB,1.5,0,BASE,0,0
+2026-06-02,669016.0,Brandon Marsh,philadelphia phillies,TB,1.5,0,BASE,4,1
+2026-06-02,701538.0,Jackson Merrill,san diego padres,TB,1.5,0,BASE,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,TB,1.5,1,ALT,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,TB,2.5,1,ALT,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,TB,3.5,1,ALT,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,TB,4.5,1,ALT,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,TB,1.5,1,ALT,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,TB,2.5,1,ALT,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,TB,3.5,1,ALT,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,TB,4.5,1,ALT,0,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,TB,1.5,1,ALT,1,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,TB,2.5,1,ALT,1,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,TB,3.5,1,ALT,1,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,TB,4.5,1,ALT,1,0
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,TB,1.5,1,ALT,0,0
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,TB,2.5,1,ALT,0,0
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,TB,3.5,1,ALT,0,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,TB,1.5,1,ALT,1,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,TB,2.5,1,ALT,1,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,TB,3.5,1,ALT,1,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,TB,1.5,1,ALT,0,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,TB,2.5,1,ALT,0,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,TB,3.5,1,ALT,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,TB,1.5,1,ALT,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,TB,2.5,1,ALT,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,TB,3.5,1,ALT,0,0
+2026-06-02,656941.0,Kyle Schwarber,philadelphia phillies,BB,0.5,0,BASE,2,1
+2026-06-02,547180.0,Bryce Harper,philadelphia phillies,BB,0.5,0,BASE,1,1
+2026-06-02,657757.0,Gavin Sheets,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,701538.0,Jackson Merrill,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,665487.0,Fernando Tatis Jr.,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,669016.0,Brandon Marsh,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,823550.0,Sung-Mun Song,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,666969.0,Adolis Garcia,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,681082.0,Bryson Stott,philadelphia phillies,BB,0.5,0,BASE,1,1
+2026-06-02,592518.0,Manny Machado,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,593428.0,Xander Bogaerts,san diego padres,BB,0.5,0,BASE,1,1
+2026-06-02,664761.0,Alec Bohm,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,596117.0,Garrett Stubbs,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,609280.0,Miguel Andujar,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,607208.0,Trea Turner,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,702222.0,Justin Crawford,philadelphia phillies,BB,0.5,0,BASE,0,0
+2026-06-02,666023.0,Freddy Fermin,san diego padres,BB,0.5,0,BASE,0,0
+2026-06-02,605400.0,Aaron Nola,philadelphia phillies,K,5.5,0,BASE,8,1
+2026-06-02,681190.0,Randy Vasquez,san diego padres,K,3.5,0,BASE,3,0
+2026-06-02,605400.0,Aaron Nola,philadelphia phillies,K,4.5,1,ALT,8,1
+2026-06-02,605400.0,Aaron Nola,philadelphia phillies,K,6.5,1,ALT,8,1
+2026-06-02,681190.0,Randy Vasquez,san diego padres,K,2.5,1,ALT,3,1
+2026-06-02,681190.0,Randy Vasquez,san diego padres,K,4.5,1,ALT,3,0
+2026-06-02,678882.0,Ceddanne Rafaela,boston red sox,H,0.5,0,BASE,2,1
+2026-06-02,680776.0,Jarren Duran,boston red sox,H,0.5,0,BASE,1,1
+2026-06-02,668939.0,Adley Rutschman,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,807799.0,Masataka Yoshida,boston red sox,H,0.5,0,BASE,0,0
+2026-06-02,621493.0,Taylor Ward,baltimore orioles,H,0.5,0,BASE,0,0
+2026-06-02,643396.0,Isiah Kiner-Falefa,boston red sox,H,0.5,0,BASE,0,0
+2026-06-02,683002.0,Gunnar Henderson,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,624413.0,Pete Alonso,baltimore orioles,H,0.5,0,BASE,2,1
+2026-06-02,575929.0,Willson Contreras,boston red sox,H,0.5,0,BASE,0,0
+2026-06-02,677800.0,Wilyer Abreu,boston red sox,H,0.5,0,BASE,0,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,H,0.5,0,BASE,1,1
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,702332.0,Caleb Durbin,boston red sox,H,0.5,0,BASE,1,1
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,H,0.5,0,BASE,0,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,H,0.5,0,BASE,1,1
+2026-06-02,678882.0,Ceddanne Rafaela,boston red sox,HRR,1.5,0,BASE,2,1
+2026-06-02,680776.0,Jarren Duran,boston red sox,HRR,1.5,0,BASE,2,1
+2026-06-02,621493.0,Taylor Ward,baltimore orioles,HRR,1.5,0,BASE,0,0
+2026-06-02,575929.0,Willson Contreras,boston red sox,HRR,1.5,0,BASE,0,0
+2026-06-02,668939.0,Adley Rutschman,baltimore orioles,HRR,1.5,0,BASE,2,1
+2026-06-02,807799.0,Masataka Yoshida,boston red sox,HRR,1.5,0,BASE,0,0
+2026-06-02,677800.0,Wilyer Abreu,boston red sox,HRR,1.5,0,BASE,1,0
+2026-06-02,683002.0,Gunnar Henderson,baltimore orioles,HRR,1.5,0,BASE,1,0
+2026-06-02,624413.0,Pete Alonso,baltimore orioles,HRR,1.5,0,BASE,5,1
+2026-06-02,643396.0,Isiah Kiner-Falefa,boston red sox,HRR,1.5,0,BASE,0,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,HRR,1.5,0,BASE,2,1
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,HRR,1.5,0,BASE,1,0
+2026-06-02,702332.0,Caleb Durbin,boston red sox,HRR,1.5,0,BASE,1,0
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,HRR,1.5,0,BASE,1,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,HRR,1.5,0,BASE,1,0
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,HRR,0.5,0,BASE,2,1
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,HRR,0.5,0,BASE,3,1
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,HRR,0.5,0,BASE,2,1
+2026-06-02,680776.0,Jarren Duran,boston red sox,TB,1.5,0,BASE,3,1
+2026-06-02,678882.0,Ceddanne Rafaela,boston red sox,TB,1.5,0,BASE,2,1
+2026-06-02,668939.0,Adley Rutschman,baltimore orioles,TB,1.5,0,BASE,1,0
+2026-06-02,677800.0,Wilyer Abreu,boston red sox,TB,1.5,0,BASE,0,0
+2026-06-02,683002.0,Gunnar Henderson,baltimore orioles,TB,1.5,0,BASE,2,1
+2026-06-02,624413.0,Pete Alonso,baltimore orioles,TB,1.5,0,BASE,5,1
+2026-06-02,621493.0,Taylor Ward,baltimore orioles,TB,1.5,0,BASE,0,0
+2026-06-02,575929.0,Willson Contreras,boston red sox,TB,1.5,0,BASE,0,0
+2026-06-02,807799.0,Masataka Yoshida,boston red sox,TB,1.5,0,BASE,0,0
+2026-06-02,643396.0,Isiah Kiner-Falefa,boston red sox,TB,1.5,0,BASE,0,0
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,TB,1.5,1,ALT,1,0
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,TB,2.5,1,ALT,1,0
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,TB,3.5,1,ALT,1,0
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,TB,4.5,1,ALT,1,0
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,TB,1.5,1,ALT,4,1
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,TB,2.5,1,ALT,4,1
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,TB,3.5,1,ALT,4,1
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,TB,4.5,1,ALT,4,0
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,TB,1.5,1,ALT,1,0
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,TB,2.5,1,ALT,1,0
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,TB,3.5,1,ALT,1,0
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,TB,4.5,1,ALT,1,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,TB,1.5,1,ALT,1,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,TB,2.5,1,ALT,1,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,TB,3.5,1,ALT,1,0
+2026-06-02,681508.0,Mickey Gasper,boston red sox,TB,4.5,1,ALT,1,0
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,TB,1.5,1,ALT,0,0
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,TB,2.5,1,ALT,0,0
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,TB,3.5,1,ALT,0,0
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,TB,1.5,1,ALT,1,0
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,TB,2.5,1,ALT,1,0
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,TB,3.5,1,ALT,1,0
+2026-06-02,702332.0,Caleb Durbin,boston red sox,TB,1.5,1,ALT,2,1
+2026-06-02,702332.0,Caleb Durbin,boston red sox,TB,2.5,1,ALT,2,0
+2026-06-02,702332.0,Caleb Durbin,boston red sox,TB,3.5,1,ALT,2,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,TB,1.5,1,ALT,1,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,TB,2.5,1,ALT,1,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,TB,3.5,1,ALT,1,0
+2026-06-02,621493.0,Taylor Ward,baltimore orioles,BB,0.5,0,BASE,1,1
+2026-06-02,680776.0,Jarren Duran,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,575929.0,Willson Contreras,boston red sox,BB,0.5,0,BASE,1,1
+2026-06-02,668939.0,Adley Rutschman,baltimore orioles,BB,0.5,0,BASE,1,1
+2026-06-02,681508.0,Mickey Gasper,boston red sox,BB,0.5,0,BASE,1,1
+2026-06-02,624413.0,Pete Alonso,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,641933.0,Tyler O'Neill,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,677800.0,Wilyer Abreu,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,694212.0,Samuel Basallo,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,683002.0,Gunnar Henderson,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,807799.0,Masataka Yoshida,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,691723.0,Coby Mayo,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,678882.0,Ceddanne Rafaela,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,665750.0,Leody Taveras,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,691785.0,Marcelo Mayer,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,702332.0,Caleb Durbin,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,677942.0,Blaze Alexander,baltimore orioles,BB,0.5,0,BASE,0,0
+2026-06-02,643396.0,Isiah Kiner-Falefa,boston red sox,BB,0.5,0,BASE,0,0
+2026-06-02,813349.0,Connelly Early,boston red sox,K,5.5,0,BASE,6,1
+2026-06-02,669358.0,Shane Baz,baltimore orioles,K,4.5,0,BASE,6,1
+2026-06-02,813349.0,Connelly Early,boston red sox,K,4.5,1,ALT,6,1
+2026-06-02,813349.0,Connelly Early,boston red sox,K,6.5,1,ALT,6,0
+2026-06-02,669358.0,Shane Baz,baltimore orioles,K,3.5,1,ALT,6,1
+2026-06-02,669358.0,Shane Baz,baltimore orioles,K,5.5,1,ALT,6,1
+2026-06-02,672640.0,Otto Lopez,miami marlins,H,1.5,0,BASE,2,1
+2026-06-02,681715.0,Heriberto Hernandez,miami marlins,H,1.5,0,BASE,2,1
+2026-06-02,669364.0,Xavier Edwards,miami marlins,H,1.5,0,BASE,0,0
+2026-06-02,671277.0,Luis Garcia Jr.,washington nationals,H,1.5,0,BASE,1,0
+2026-06-02,695734.0,Daylen Lile,washington nationals,H,0.5,0,BASE,2,1
+2026-06-02,669065.0,Kyle Stowers,miami marlins,H,0.5,0,BASE,1,1
+2026-06-02,682928.0,CJ Abrams,washington nationals,H,0.5,0,BASE,1,1
+2026-06-02,689414.0,Liam Hicks,miami marlins,H,0.5,0,BASE,1,1
+2026-06-02,677870.0,Leo Jimenez,miami marlins,H,0.5,0,BASE,0,0
+2026-06-02,695578.0,James Wood,washington nationals,H,0.5,0,BASE,0,0
+2026-06-02,678554.0,Curtis Mead,washington nationals,H,0.5,0,BASE,0,0
+2026-06-02,805300.0,Jakob Marsee,miami marlins,H,0.5,0,BASE,1,1
+2026-06-02,686611.0,Dylan Crews,washington nationals,H,0.5,0,BASE,1,1
+2026-06-02,691788.0,Joe Mack,miami marlins,H,0.5,0,BASE,1,1
+2026-06-02,683357.0,Owen Caissie,miami marlins,H,0.5,0,BASE,0,0
+2026-06-02,686452.0,Drew Millas,washington nationals,H,0.5,0,BASE,1,1
+2026-06-02,696285.0,Jacob Young,washington nationals,H,0.5,0,BASE,1,1
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,H,0.5,0,BASE,0,0
+2026-06-02,672640.0,Otto Lopez,miami marlins,HRR,2.5,0,BASE,4,1
+2026-06-02,681715.0,Heriberto Hernandez,miami marlins,HRR,1.5,0,BASE,7,1
+2026-06-02,669364.0,Xavier Edwards,miami marlins,HRR,1.5,0,BASE,0,0
+2026-06-02,671277.0,Luis Garcia Jr.,washington nationals,HRR,1.5,0,BASE,2,1
+2026-06-02,695734.0,Daylen Lile,washington nationals,HRR,1.5,0,BASE,3,1
+2026-06-02,669065.0,Kyle Stowers,miami marlins,HRR,1.5,0,BASE,1,0
+2026-06-02,695578.0,James Wood,washington nationals,HRR,1.5,0,BASE,0,0
+2026-06-02,682928.0,CJ Abrams,washington nationals,HRR,1.5,0,BASE,2,1
+2026-06-02,689414.0,Liam Hicks,miami marlins,HRR,1.5,0,BASE,2,1
+2026-06-02,677870.0,Leo Jimenez,miami marlins,HRR,1.5,0,BASE,0,0
+2026-06-02,678554.0,Curtis Mead,washington nationals,HRR,1.5,0,BASE,0,0
+2026-06-02,805300.0,Jakob Marsee,miami marlins,HRR,1.5,0,BASE,2,1
+2026-06-02,686611.0,Dylan Crews,washington nationals,HRR,1.5,0,BASE,1,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,HRR,1.5,0,BASE,1,0
+2026-06-02,686452.0,Drew Millas,washington nationals,HRR,1.5,0,BASE,1,0
+2026-06-02,691788.0,Joe Mack,miami marlins,HRR,1.5,0,BASE,5,1
+2026-06-02,696285.0,Jacob Young,washington nationals,HRR,1.5,0,BASE,1,0
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,HRR,1.5,0,BASE,0,0
+2026-06-02,672640.0,Otto Lopez,miami marlins,TB,1.5,0,BASE,5,1
+2026-06-02,681715.0,Heriberto Hernandez,miami marlins,TB,1.5,0,BASE,8,1
+2026-06-02,671277.0,Luis Garcia Jr.,washington nationals,TB,1.5,0,BASE,3,1
+2026-06-02,669065.0,Kyle Stowers,miami marlins,TB,1.5,0,BASE,1,0
+2026-06-02,695734.0,Daylen Lile,washington nationals,TB,1.5,0,BASE,2,1
+2026-06-02,669364.0,Xavier Edwards,miami marlins,TB,1.5,0,BASE,0,0
+2026-06-02,682928.0,CJ Abrams,washington nationals,TB,1.5,0,BASE,1,0
+2026-06-02,695578.0,James Wood,washington nationals,TB,1.5,0,BASE,0,0
+2026-06-02,678554.0,Curtis Mead,washington nationals,TB,1.5,0,BASE,0,0
+2026-06-02,689414.0,Liam Hicks,miami marlins,TB,1.5,0,BASE,1,0
+2026-06-02,677870.0,Leo Jimenez,miami marlins,TB,1.5,0,BASE,0,0
+2026-06-02,686611.0,Dylan Crews,washington nationals,TB,1.5,1,ALT,1,0
+2026-06-02,686611.0,Dylan Crews,washington nationals,TB,2.5,1,ALT,1,0
+2026-06-02,686611.0,Dylan Crews,washington nationals,TB,3.5,1,ALT,1,0
+2026-06-02,686611.0,Dylan Crews,washington nationals,TB,4.5,1,ALT,1,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,TB,1.5,1,ALT,0,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,TB,2.5,1,ALT,0,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,TB,3.5,1,ALT,0,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,TB,4.5,1,ALT,0,0
+2026-06-02,686452.0,Drew Millas,washington nationals,TB,1.5,1,ALT,1,0
+2026-06-02,686452.0,Drew Millas,washington nationals,TB,2.5,1,ALT,1,0
+2026-06-02,686452.0,Drew Millas,washington nationals,TB,3.5,1,ALT,1,0
+2026-06-02,805300.0,Jakob Marsee,miami marlins,TB,1.5,1,ALT,1,0
+2026-06-02,805300.0,Jakob Marsee,miami marlins,TB,2.5,1,ALT,1,0
+2026-06-02,805300.0,Jakob Marsee,miami marlins,TB,3.5,1,ALT,1,0
+2026-06-02,691788.0,Joe Mack,miami marlins,TB,1.5,1,ALT,4,1
+2026-06-02,691788.0,Joe Mack,miami marlins,TB,2.5,1,ALT,4,1
+2026-06-02,691788.0,Joe Mack,miami marlins,TB,3.5,1,ALT,4,1
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,TB,1.5,1,ALT,0,0
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,TB,2.5,1,ALT,0,0
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,TB,3.5,1,ALT,0,0
+2026-06-02,696285.0,Jacob Young,washington nationals,TB,1.5,1,ALT,1,0
+2026-06-02,696285.0,Jacob Young,washington nationals,TB,2.5,1,ALT,1,0
+2026-06-02,696285.0,Jacob Young,washington nationals,TB,3.5,1,ALT,1,0
+2026-06-02,695578.0,James Wood,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,681715.0,Heriberto Hernandez,miami marlins,BB,0.5,0,BASE,0,0
+2026-06-02,669065.0,Kyle Stowers,miami marlins,BB,0.5,0,BASE,1,1
+2026-06-02,682928.0,CJ Abrams,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,689414.0,Liam Hicks,miami marlins,BB,0.5,0,BASE,1,1
+2026-06-02,669364.0,Xavier Edwards,miami marlins,BB,0.5,0,BASE,1,1
+2026-06-02,805300.0,Jakob Marsee,miami marlins,BB,0.5,0,BASE,0,0
+2026-06-02,678554.0,Curtis Mead,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,678391.0,Jorbit Vivas,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,686452.0,Drew Millas,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,683357.0,Owen Caissie,miami marlins,BB,0.5,0,BASE,2,1
+2026-06-02,695734.0,Daylen Lile,washington nationals,BB,0.5,0,BASE,1,1
+2026-06-02,677870.0,Leo Jimenez,miami marlins,BB,0.5,0,BASE,0,0
+2026-06-02,691788.0,Joe Mack,miami marlins,BB,0.5,0,BASE,0,0
+2026-06-02,672640.0,Otto Lopez,miami marlins,BB,0.5,0,BASE,0,0
+2026-06-02,686611.0,Dylan Crews,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,696285.0,Jacob Young,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,671277.0,Luis Garcia Jr.,washington nationals,BB,0.5,0,BASE,0,0
+2026-06-02,642708.0,Amed Rosario,new york yankees,H,0.5,0,BASE,0,0
+2026-06-02,641355.0,Cody Bellinger,new york yankees,H,0.5,0,BASE,2,1
+2026-06-02,608070.0,Jose Ramirez,cleveland guardians,H,0.5,0,BASE,3,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,H,0.5,0,BASE,3,1
+2026-06-02,700250.0,Ben Rice,new york yankees,H,0.5,0,BASE,1,1
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,H,0.5,0,BASE,0,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,H,0.5,0,BASE,1,1
+2026-06-02,663757.0,Trent Grisham,new york yankees,H,0.5,0,BASE,1,1
+2026-06-02,683011.0,Anthony Volpe,new york yankees,H,0.5,0,BASE,0,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,H,0.5,0,BASE,1,1
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,H,0.5,0,BASE,1,1
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,H,0.5,0,BASE,2,1
+2026-06-02,676609.0,Jose Caballero,new york yankees,H,0.5,0,BASE,0,0
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,H,0.5,0,BASE,1,1
+2026-06-02,669224.0,Austin Wells,new york yankees,H,0.5,0,BASE,0,0
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,H,0.5,0,BASE,2,1
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,H,0.5,0,BASE,1,1
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,H,0.5,0,BASE,1,1
+2026-06-02,700250.0,Ben Rice,new york yankees,HRR,1.5,0,BASE,2,1
+2026-06-02,642708.0,Amed Rosario,new york yankees,HRR,1.5,0,BASE,0,0
+2026-06-02,641355.0,Cody Bellinger,new york yankees,HRR,1.5,0,BASE,2,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,HRR,1.5,0,BASE,8,1
+2026-06-02,608070.0,Jose Ramirez,cleveland guardians,HRR,1.5,0,BASE,6,1
+2026-06-02,663757.0,Trent Grisham,new york yankees,HRR,1.5,0,BASE,1,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,HRR,1.5,0,BASE,5,1
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,HRR,1.5,0,BASE,2,1
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,HRR,1.5,0,BASE,0,0
+2026-06-02,683011.0,Anthony Volpe,new york yankees,HRR,1.5,0,BASE,0,0
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,HRR,0.5,0,BASE,2,1
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,HRR,0.5,0,BASE,4,1
+2026-06-02,676609.0,Jose Caballero,new york yankees,HRR,0.5,0,BASE,1,1
+2026-06-02,669224.0,Austin Wells,new york yankees,HRR,0.5,0,BASE,0,0
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,HRR,0.5,0,BASE,5,1
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,HRR,0.5,0,BASE,3,1
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,HRR,0.5,0,BASE,3,1
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,HRR,0.5,0,BASE,2,1
+2026-06-02,641355.0,Cody Bellinger,new york yankees,TB,1.5,0,BASE,2,1
+2026-06-02,642708.0,Amed Rosario,new york yankees,TB,1.5,0,BASE,0,0
+2026-06-02,700250.0,Ben Rice,new york yankees,TB,1.5,0,BASE,1,0
+2026-06-02,608070.0,Jose Ramirez,cleveland guardians,TB,1.5,0,BASE,6,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,TB,1.5,1,ALT,7,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,TB,2.5,1,ALT,7,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,TB,3.5,1,ALT,7,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,TB,4.5,1,ALT,7,1
+2026-06-02,663757.0,Trent Grisham,new york yankees,TB,1.5,1,ALT,1,0
+2026-06-02,663757.0,Trent Grisham,new york yankees,TB,2.5,1,ALT,1,0
+2026-06-02,663757.0,Trent Grisham,new york yankees,TB,3.5,1,ALT,1,0
+2026-06-02,663757.0,Trent Grisham,new york yankees,TB,4.5,1,ALT,1,0
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,TB,1.5,1,ALT,0,0
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,TB,2.5,1,ALT,0,0
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,TB,3.5,1,ALT,0,0
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,TB,4.5,1,ALT,0,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,TB,1.5,1,ALT,1,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,TB,2.5,1,ALT,1,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,TB,3.5,1,ALT,1,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,TB,4.5,1,ALT,1,0
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,TB,1.5,1,ALT,5,1
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,TB,2.5,1,ALT,5,1
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,TB,3.5,1,ALT,5,1
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,TB,4.5,1,ALT,5,1
+2026-06-02,669224.0,Austin Wells,new york yankees,TB,1.5,1,ALT,0,0
+2026-06-02,669224.0,Austin Wells,new york yankees,TB,2.5,1,ALT,0,0
+2026-06-02,669224.0,Austin Wells,new york yankees,TB,3.5,1,ALT,0,0
+2026-06-02,669224.0,Austin Wells,new york yankees,TB,4.5,1,ALT,0,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,TB,1.5,1,ALT,2,1
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,TB,2.5,1,ALT,2,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,TB,3.5,1,ALT,2,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,TB,4.5,1,ALT,2,0
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,TB,1.5,1,ALT,1,0
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,TB,2.5,1,ALT,1,0
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,TB,3.5,1,ALT,1,0
+2026-06-02,683011.0,Anthony Volpe,new york yankees,TB,1.5,1,ALT,0,0
+2026-06-02,683011.0,Anthony Volpe,new york yankees,TB,2.5,1,ALT,0,0
+2026-06-02,683011.0,Anthony Volpe,new york yankees,TB,3.5,1,ALT,0,0
+2026-06-02,676609.0,Jose Caballero,new york yankees,TB,1.5,1,ALT,0,0
+2026-06-02,676609.0,Jose Caballero,new york yankees,TB,2.5,1,ALT,0,0
+2026-06-02,676609.0,Jose Caballero,new york yankees,TB,3.5,1,ALT,0,0
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,TB,1.5,1,ALT,1,0
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,TB,2.5,1,ALT,1,0
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,TB,3.5,1,ALT,1,0
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,TB,1.5,1,ALT,3,1
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,TB,2.5,1,ALT,3,1
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,TB,3.5,1,ALT,3,0
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,TB,1.5,1,ALT,1,0
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,TB,2.5,1,ALT,1,0
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,TB,3.5,1,ALT,1,0
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,TB,1.5,1,ALT,2,1
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,TB,2.5,1,ALT,2,0
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,TB,3.5,1,ALT,2,0
+2026-06-02,663757.0,Trent Grisham,new york yankees,BB,0.5,0,BASE,1,1
+2026-06-02,700250.0,Ben Rice,new york yankees,BB,0.5,0,BASE,1,1
+2026-06-02,502671.0,Paul Goldschmidt,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,665862.0,Jazz Chisholm Jr.,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,641355.0,Cody Bellinger,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,683011.0,Anthony Volpe,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,669224.0,Austin Wells,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,676609.0,Jose Caballero,new york yankees,BB,0.5,0,BASE,1,1
+2026-06-02,608070.0,Jose Ramirez,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,683953.0,Travis Bazzana,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,800050.0,Chase DeLauter,cleveland guardians,BB,0.5,0,BASE,1,1
+2026-06-02,700932.0,Kyle Manzardo,cleveland guardians,BB,0.5,0,BASE,1,1
+2026-06-02,680757.0,Steven Kwan,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,682177.0,Daniel Schneemann,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,682657.0,Angel Martinez,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,642708.0,Amed Rosario,new york yankees,BB,0.5,0,BASE,0,0
+2026-06-02,672275.0,Patrick Bailey,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,677587.0,Brayan Rocchio,cleveland guardians,BB,0.5,0,BASE,0,0
+2026-06-02,693645.0,Cam Schlittler,new york yankees,K,6.5,0,BASE,3,0
+2026-06-02,676282.0,Joey Cantillo,cleveland guardians,K,4.5,0,BASE,4,0
+2026-06-02,693645.0,Cam Schlittler,new york yankees,K,5.5,1,ALT,3,0
+2026-06-02,693645.0,Cam Schlittler,new york yankees,K,7.5,1,ALT,3,0
+2026-06-02,676282.0,Joey Cantillo,cleveland guardians,K,3.5,1,ALT,4,1
+2026-06-02,676282.0,Joey Cantillo,cleveland guardians,K,5.5,1,ALT,4,0
+2026-06-02,677951.0,Bobby Witt Jr.,kansas city royals,H,1.5,0,BASE,0,0
+2026-06-02,667472.0,Dane Myers,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,668709.0,JJ Bleday,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,701398.0,Sal Stewart,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,668715.0,Spencer Steer,cincinnati reds,H,0.5,0,BASE,2,1
+2026-06-02,521692.0,Salvador Perez,kansas city royals,H,0.5,0,BASE,1,1
+2026-06-02,553993.0,Eugenio Suarez,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,H,0.5,0,BASE,0,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,H,0.5,0,BASE,1,1
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,H,0.5,0,BASE,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,H,0.5,0,BASE,0,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,H,0.5,0,BASE,1,1
+2026-06-02,680574.0,Matt McLain,cincinnati reds,H,0.5,0,BASE,0,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,H,0.5,0,BASE,1,1
+2026-06-02,686681.0,Michael Massey,kansas city royals,H,0.5,0,BASE,1,1
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,H,0.5,0,BASE,1,1
+2026-06-02,677951.0,Bobby Witt Jr.,kansas city royals,HRR,2.5,0,BASE,0,0
+2026-06-02,668709.0,JJ Bleday,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,667472.0,Dane Myers,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,701398.0,Sal Stewart,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,668715.0,Spencer Steer,cincinnati reds,HRR,1.5,0,BASE,7,1
+2026-06-02,521692.0,Salvador Perez,kansas city royals,HRR,1.5,0,BASE,2,1
+2026-06-02,553993.0,Eugenio Suarez,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,HRR,1.5,0,BASE,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,HRR,1.5,0,BASE,0,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,HRR,1.5,0,BASE,2,1
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,HRR,1.5,0,BASE,1,0
+2026-06-02,680574.0,Matt McLain,cincinnati reds,HRR,1.5,0,BASE,0,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,HRR,1.5,0,BASE,2,1
+2026-06-02,679845.0,Nick Loftin,kansas city royals,HRR,1.5,0,BASE,2,1
+2026-06-02,686681.0,Michael Massey,kansas city royals,HRR,0.5,0,BASE,3,1
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,HRR,0.5,0,BASE,1,1
+2026-06-02,677951.0,Bobby Witt Jr.,kansas city royals,TB,1.5,0,BASE,0,0
+2026-06-02,668709.0,JJ Bleday,cincinnati reds,TB,1.5,0,BASE,0,0
+2026-06-02,521692.0,Salvador Perez,kansas city royals,TB,1.5,0,BASE,1,0
+2026-06-02,701398.0,Sal Stewart,cincinnati reds,TB,1.5,0,BASE,0,0
+2026-06-02,667472.0,Dane Myers,cincinnati reds,TB,1.5,0,BASE,0,0
+2026-06-02,553993.0,Eugenio Suarez,cincinnati reds,TB,1.5,0,BASE,0,0
+2026-06-02,668715.0,Spencer Steer,cincinnati reds,TB,1.5,0,BASE,8,1
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,TB,1.5,1,ALT,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,TB,2.5,1,ALT,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,TB,3.5,1,ALT,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,TB,4.5,1,ALT,0,0
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,TB,1.5,1,ALT,0,0
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,TB,2.5,1,ALT,0,0
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,TB,3.5,1,ALT,0,0
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,TB,4.5,1,ALT,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,TB,1.5,1,ALT,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,TB,2.5,1,ALT,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,TB,3.5,1,ALT,0,0
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,TB,4.5,1,ALT,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,TB,1.5,1,ALT,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,TB,2.5,1,ALT,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,TB,3.5,1,ALT,0,0
+2026-06-02,657041.0,Lane Thomas,kansas city royals,TB,4.5,1,ALT,0,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,TB,1.5,1,ALT,1,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,TB,2.5,1,ALT,1,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,TB,3.5,1,ALT,1,0
+2026-06-02,516782.0,Starling Marte,kansas city royals,TB,4.5,1,ALT,1,0
+2026-06-02,680574.0,Matt McLain,cincinnati reds,TB,1.5,1,ALT,0,0
+2026-06-02,680574.0,Matt McLain,cincinnati reds,TB,2.5,1,ALT,0,0
+2026-06-02,680574.0,Matt McLain,cincinnati reds,TB,3.5,1,ALT,0,0
+2026-06-02,680574.0,Matt McLain,cincinnati reds,TB,4.5,1,ALT,0,0
+2026-06-02,686681.0,Michael Massey,kansas city royals,TB,1.5,1,ALT,1,0
+2026-06-02,686681.0,Michael Massey,kansas city royals,TB,2.5,1,ALT,1,0
+2026-06-02,686681.0,Michael Massey,kansas city royals,TB,3.5,1,ALT,1,0
+2026-06-02,686681.0,Michael Massey,kansas city royals,TB,4.5,1,ALT,1,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,TB,1.5,1,ALT,1,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,TB,2.5,1,ALT,1,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,TB,3.5,1,ALT,1,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,TB,4.5,1,ALT,1,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,TB,1.5,1,ALT,1,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,TB,2.5,1,ALT,1,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,TB,3.5,1,ALT,1,0
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,TB,1.5,1,ALT,1,0
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,TB,2.5,1,ALT,1,0
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,TB,3.5,1,ALT,1,0
+2026-06-02,663886.0,Tyler Stephenson,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,553993.0,Eugenio Suarez,cincinnati reds,BB,0.5,0,BASE,1,1
+2026-06-02,701398.0,Sal Stewart,cincinnati reds,BB,0.5,0,BASE,1,1
+2026-06-02,657041.0,Lane Thomas,kansas city royals,BB,0.5,0,BASE,1,1
+2026-06-02,680574.0,Matt McLain,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,668709.0,JJ Bleday,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,677951.0,Bobby Witt Jr.,kansas city royals,BB,0.5,0,BASE,2,1
+2026-06-02,667472.0,Dane Myers,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,694362.0,Blake Dunn,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,668715.0,Spencer Steer,cincinnati reds,BB,0.5,0,BASE,0,0
+2026-06-02,679845.0,Nick Loftin,kansas city royals,BB,0.5,0,BASE,1,1
+2026-06-02,516782.0,Starling Marte,kansas city royals,BB,0.5,0,BASE,0,0
+2026-06-02,521692.0,Salvador Perez,kansas city royals,BB,0.5,0,BASE,1,1
+2026-06-02,686469.0,Vinnie Pasquantino,kansas city royals,BB,0.5,0,BASE,0,0
+2026-06-02,695506.0,Jac Caglianone,kansas city royals,BB,0.5,0,BASE,1,1
+2026-06-02,686475.0,Tyler Tolbert,kansas city royals,BB,0.5,0,BASE,2,1
+2026-06-02,686681.0,Michael Massey,kansas city royals,BB,0.5,0,BASE,0,0
+2026-06-02,702070.0,Noah Cameron,kansas city royals,K,5.5,0,BASE,8,1
+2026-06-02,671096.0,Andrew Abbott,cincinnati reds,K,4.5,0,BASE,5,1
+2026-06-02,702070.0,Noah Cameron,kansas city royals,K,4.5,1,ALT,8,1
+2026-06-02,702070.0,Noah Cameron,kansas city royals,K,6.5,1,ALT,8,1
+2026-06-02,671096.0,Andrew Abbott,cincinnati reds,K,3.5,1,ALT,5,1
+2026-06-02,671096.0,Andrew Abbott,cincinnati reds,K,5.5,1,ALT,5,0
+2026-06-02,671739.0,Michael Harris II,atlanta braves,H,1.5,0,BASE,1,0
+2026-06-02,665489.0,Vladimir Guerrero Jr.,toronto blue jays,H,1.5,0,BASE,1,0
+2026-06-02,660670.0,Ronald Acuna Jr.,atlanta braves,H,0.5,0,BASE,0,0
+2026-06-02,676391.0,Ernie Clement,toronto blue jays,H,0.5,0,BASE,2,1
+2026-06-02,543807.0,George Springer,toronto blue jays,H,0.5,0,BASE,0,0
+2026-06-02,664770.0,Nathan Lukes,toronto blue jays,H,0.5,0,BASE,2,1
+2026-06-02,662139.0,Daulton Varsho,toronto blue jays,H,0.5,0,BASE,0,0
+2026-06-02,621566.0,Matt Olson,atlanta braves,H,0.5,0,BASE,2,1
+2026-06-02,642086.0,Dominic Smith,atlanta braves,H,0.5,0,BASE,0,0
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,H,0.5,0,BASE,2,1
+2026-06-02,663586.0,Austin Riley,atlanta braves,H,0.5,0,BASE,0,0
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,H,0.5,0,BASE,0,0
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,H,0.5,0,BASE,2,1
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,H,0.5,0,BASE,2,1
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,H,0.5,0,BASE,0,0
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,H,0.5,0,BASE,0,0
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,H,0.5,0,BASE,1,1
+2026-06-02,506702.0,Sandy León,atlanta braves,H,0.5,0,BASE,0,0
+2026-06-02,671739.0,Michael Harris II,atlanta braves,HRR,1.5,0,BASE,3,1
+2026-06-02,660670.0,Ronald Acuna Jr.,atlanta braves,HRR,1.5,0,BASE,1,0
+2026-06-02,665489.0,Vladimir Guerrero Jr.,toronto blue jays,HRR,1.5,0,BASE,1,0
+2026-06-02,543807.0,George Springer,toronto blue jays,HRR,1.5,0,BASE,0,0
+2026-06-02,662139.0,Daulton Varsho,toronto blue jays,HRR,1.5,0,BASE,1,0
+2026-06-02,676391.0,Ernie Clement,toronto blue jays,HRR,1.5,0,BASE,2,1
+2026-06-02,621566.0,Matt Olson,atlanta braves,HRR,1.5,0,BASE,5,1
+2026-06-02,664770.0,Nathan Lukes,toronto blue jays,HRR,1.5,0,BASE,3,1
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,HRR,1.5,0,BASE,4,1
+2026-06-02,642086.0,Dominic Smith,atlanta braves,HRR,1.5,0,BASE,0,0
+2026-06-02,663586.0,Austin Riley,atlanta braves,HRR,1.5,0,BASE,0,0
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,HRR,1.5,0,BASE,5,1
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,HRR,1.5,0,BASE,0,0
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,HRR,1.5,0,BASE,0,0
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,HRR,1.5,0,BASE,3,1
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,HRR,0.5,0,BASE,0,0
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,HRR,0.5,0,BASE,1,1
+2026-06-02,506702.0,Sandy León,atlanta braves,HRR,0.5,0,BASE,0,0
+2026-06-02,671739.0,Michael Harris II,atlanta braves,TB,1.5,0,BASE,2,1
+2026-06-02,665489.0,Vladimir Guerrero Jr.,toronto blue jays,TB,1.5,0,BASE,2,1
+2026-06-02,660670.0,Ronald Acuna Jr.,atlanta braves,TB,1.5,0,BASE,0,0
+2026-06-02,543807.0,George Springer,toronto blue jays,TB,1.5,0,BASE,0,0
+2026-06-02,621566.0,Matt Olson,atlanta braves,TB,1.5,0,BASE,6,1
+2026-06-02,662139.0,Daulton Varsho,toronto blue jays,TB,1.5,0,BASE,0,0
+2026-06-02,664770.0,Nathan Lukes,toronto blue jays,TB,1.5,0,BASE,2,1
+2026-06-02,676391.0,Ernie Clement,toronto blue jays,TB,1.5,0,BASE,2,1
+2026-06-02,663586.0,Austin Riley,atlanta braves,TB,1.5,1,ALT,0,0
+2026-06-02,663586.0,Austin Riley,atlanta braves,TB,2.5,1,ALT,0,0
+2026-06-02,663586.0,Austin Riley,atlanta braves,TB,3.5,1,ALT,0,0
+2026-06-02,663586.0,Austin Riley,atlanta braves,TB,4.5,1,ALT,0,0
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,TB,1.5,1,ALT,5,1
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,TB,2.5,1,ALT,5,1
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,TB,3.5,1,ALT,5,1
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,TB,4.5,1,ALT,5,1
+2026-06-02,642086.0,Dominic Smith,atlanta braves,TB,1.5,1,ALT,0,0
+2026-06-02,642086.0,Dominic Smith,atlanta braves,TB,2.5,1,ALT,0,0
+2026-06-02,642086.0,Dominic Smith,atlanta braves,TB,3.5,1,ALT,0,0
+2026-06-02,642086.0,Dominic Smith,atlanta braves,TB,4.5,1,ALT,0,0
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,TB,1.5,1,ALT,2,1
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,TB,2.5,1,ALT,2,0
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,TB,3.5,1,ALT,2,0
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,TB,4.5,1,ALT,2,0
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,TB,1.5,1,ALT,2,1
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,TB,2.5,1,ALT,2,0
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,TB,3.5,1,ALT,2,0
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,TB,1.5,1,ALT,0,0
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,TB,2.5,1,ALT,0,0
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,TB,3.5,1,ALT,0,0
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,TB,1.5,1,ALT,2,1
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,TB,2.5,1,ALT,2,0
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,TB,3.5,1,ALT,2,0
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,TB,1.5,1,ALT,0,0
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,TB,2.5,1,ALT,0,0
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,TB,3.5,1,ALT,0,0
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,TB,1.5,1,ALT,0,0
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,TB,2.5,1,ALT,0,0
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,TB,3.5,1,ALT,0,0
+2026-06-02,506702.0,Sandy León,atlanta braves,TB,1.5,1,ALT,0,0
+2026-06-02,506702.0,Sandy León,atlanta braves,TB,2.5,1,ALT,0,0
+2026-06-02,506702.0,Sandy León,atlanta braves,TB,3.5,1,ALT,0,0
+2026-06-02,621566.0,Matt Olson,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,660670.0,Ronald Acuna Jr.,atlanta braves,BB,0.5,0,BASE,1,1
+2026-06-02,573262.0,Mike Yastrzemski,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,543807.0,George Springer,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,665489.0,Vladimir Guerrero Jr.,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,662139.0,Daulton Varsho,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,645277.0,Ozzie Albies,atlanta braves,BB,0.5,0,BASE,1,1
+2026-06-02,678218.0,Brandon Valenzuela,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,664770.0,Nathan Lukes,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,663586.0,Austin Riley,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,622761.0,Jorge Mateo,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,672960.0,Kazuma Okamoto,toronto blue jays,BB,0.5,0,BASE,1,1
+2026-06-02,642086.0,Dominic Smith,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,671739.0,Michael Harris II,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,665926.0,Andres Gimenez,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,682818.0,Yohendrick Pinango,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,676391.0,Ernie Clement,toronto blue jays,BB,0.5,0,BASE,0,0
+2026-06-02,506702.0,Sandy León,atlanta braves,BB,0.5,0,BASE,0,0
+2026-06-02,592332.0,Kevin Gausman,toronto blue jays,K,5.5,0,BASE,8,1
+2026-06-02,693821.0,Bryce Elder,atlanta braves,K,4.5,0,BASE,6,1
+2026-06-02,592332.0,Kevin Gausman,toronto blue jays,K,4.5,1,ALT,8,1
+2026-06-02,592332.0,Kevin Gausman,toronto blue jays,K,6.5,1,ALT,8,1
+2026-06-02,693821.0,Bryce Elder,atlanta braves,K,3.5,1,ALT,6,1
+2026-06-02,693821.0,Bryce Elder,atlanta braves,K,5.5,1,ALT,6,1
+2026-06-02,805367.0,Chase Meidroth,chicago white sox,H,1.5,0,BASE,2,1
+2026-06-02,700337.0,Edgar Quero,chicago white sox,H,0.5,0,BASE,1,1
+2026-06-02,678246.0,Miguel Vargas,chicago white sox,H,0.5,0,BASE,1,1
+2026-06-02,686797.0,Brooks Lee,minnesota twins,H,0.5,0,BASE,1,1
+2026-06-02,665019.0,Kody Clemens,minnesota twins,H,0.5,0,BASE,0,0
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,H,0.5,0,BASE,0,0
+2026-06-02,621439.0,Byron Buxton,minnesota twins,H,0.5,0,BASE,1,1
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,H,0.5,0,BASE,2,1
+2026-06-02,545341.0,Randal Grichuk,chicago white sox,H,0.5,0,BASE,1,1
+2026-06-02,605137.0,Josh Bell,minnesota twins,H,0.5,0,BASE,1,1
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,H,0.5,0,BASE,0,0
+2026-06-02,668885.0,Austin Martin,minnesota twins,H,0.5,0,BASE,0,0
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,H,0.5,0,BASE,1,1
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,H,0.5,0,BASE,2,1
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,H,0.5,0,BASE,1,1
+2026-06-02,656537.0,Derek Hill,chicago white sox,H,0.5,0,BASE,0,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,H,0.5,0,BASE,2,1
+2026-06-02,656577.0,Alex Jackson,minnesota twins,H,0.5,0,BASE,2,1
+2026-06-02,678246.0,Miguel Vargas,chicago white sox,HRR,1.5,0,BASE,3,1
+2026-06-02,805367.0,Chase Meidroth,chicago white sox,HRR,1.5,0,BASE,4,1
+2026-06-02,700337.0,Edgar Quero,chicago white sox,HRR,1.5,0,BASE,1,0
+2026-06-02,621439.0,Byron Buxton,minnesota twins,HRR,1.5,0,BASE,1,0
+2026-06-02,665019.0,Kody Clemens,minnesota twins,HRR,1.5,0,BASE,0,0
+2026-06-02,545341.0,Randal Grichuk,chicago white sox,HRR,1.5,0,BASE,2,1
+2026-06-02,686797.0,Brooks Lee,minnesota twins,HRR,1.5,0,BASE,2,1
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,HRR,1.5,0,BASE,0,0
+2026-06-02,605137.0,Josh Bell,minnesota twins,HRR,1.5,0,BASE,2,1
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,HRR,1.5,0,BASE,0,0
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,HRR,1.5,0,BASE,5,1
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,HRR,1.5,0,BASE,1,0
+2026-06-02,668885.0,Austin Martin,minnesota twins,HRR,1.5,0,BASE,1,0
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,HRR,1.5,0,BASE,4,1
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,HRR,1.5,0,BASE,2,1
+2026-06-02,656537.0,Derek Hill,chicago white sox,HRR,1.5,0,BASE,0,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,HRR,1.5,0,BASE,6,1
+2026-06-02,656577.0,Alex Jackson,minnesota twins,HRR,0.5,0,BASE,3,1
+2026-06-02,621439.0,Byron Buxton,minnesota twins,TB,1.5,0,BASE,1,0
+2026-06-02,678246.0,Miguel Vargas,chicago white sox,TB,1.5,0,BASE,1,0
+2026-06-02,665019.0,Kody Clemens,minnesota twins,TB,1.5,0,BASE,0,0
+2026-06-02,805367.0,Chase Meidroth,chicago white sox,TB,1.5,0,BASE,2,1
+2026-06-02,605137.0,Josh Bell,minnesota twins,TB,1.5,0,BASE,1,0
+2026-06-02,686797.0,Brooks Lee,minnesota twins,TB,1.5,0,BASE,1,0
+2026-06-02,700337.0,Edgar Quero,chicago white sox,TB,1.5,0,BASE,1,0
+2026-06-02,545341.0,Randal Grichuk,chicago white sox,TB,1.5,0,BASE,2,1
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,TB,1.5,1,ALT,0,0
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,TB,2.5,1,ALT,0,0
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,TB,3.5,1,ALT,0,0
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,TB,4.5,1,ALT,0,0
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,TB,1.5,1,ALT,1,0
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,TB,2.5,1,ALT,1,0
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,TB,3.5,1,ALT,1,0
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,TB,4.5,1,ALT,1,0
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,TB,1.5,1,ALT,2,1
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,TB,2.5,1,ALT,2,0
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,TB,3.5,1,ALT,2,0
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,TB,4.5,1,ALT,2,0
+2026-06-02,656537.0,Derek Hill,chicago white sox,TB,1.5,1,ALT,0,0
+2026-06-02,656537.0,Derek Hill,chicago white sox,TB,2.5,1,ALT,0,0
+2026-06-02,656537.0,Derek Hill,chicago white sox,TB,3.5,1,ALT,0,0
+2026-06-02,656537.0,Derek Hill,chicago white sox,TB,4.5,1,ALT,0,0
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,TB,1.5,1,ALT,2,1
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,TB,2.5,1,ALT,2,0
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,TB,3.5,1,ALT,2,0
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,TB,4.5,1,ALT,2,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,TB,1.5,1,ALT,2,1
+2026-06-02,656484.0,Tristan Gray,minnesota twins,TB,2.5,1,ALT,2,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,TB,3.5,1,ALT,2,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,TB,4.5,1,ALT,2,0
+2026-06-02,656577.0,Alex Jackson,minnesota twins,TB,1.5,1,ALT,2,1
+2026-06-02,656577.0,Alex Jackson,minnesota twins,TB,2.5,1,ALT,2,0
+2026-06-02,656577.0,Alex Jackson,minnesota twins,TB,3.5,1,ALT,2,0
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,TB,1.5,1,ALT,2,1
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,TB,2.5,1,ALT,2,0
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,TB,3.5,1,ALT,2,0
+2026-06-02,668885.0,Austin Martin,minnesota twins,TB,1.5,1,ALT,0,0
+2026-06-02,668885.0,Austin Martin,minnesota twins,TB,2.5,1,ALT,0,0
+2026-06-02,668885.0,Austin Martin,minnesota twins,TB,3.5,1,ALT,0,0
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,TB,1.5,1,ALT,0,0
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,TB,2.5,1,ALT,0,0
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,TB,3.5,1,ALT,0,0
+2026-06-02,678246.0,Miguel Vargas,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,805367.0,Chase Meidroth,chicago white sox,BB,0.5,0,BASE,1,1
+2026-06-02,668885.0,Austin Martin,minnesota twins,BB,0.5,0,BASE,1,1
+2026-06-02,694378.0,Jacob Gonzalez,chicago white sox,BB,0.5,0,BASE,1,1
+2026-06-02,605137.0,Josh Bell,minnesota twins,BB,0.5,0,BASE,1,1
+2026-06-02,700337.0,Edgar Quero,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,621439.0,Byron Buxton,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,807712.0,Luke Keaschall,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,803011.0,Sam Antonacci,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,665019.0,Kody Clemens,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,663616.0,Trevor Larnach,minnesota twins,BB,0.5,0,BASE,1,1
+2026-06-02,643217.0,Andrew Benintendi,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,686797.0,Brooks Lee,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,656484.0,Tristan Gray,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,545341.0,Randal Grichuk,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,682668.0,Luisangel Acuna,chicago white sox,BB,0.5,0,BASE,1,1
+2026-06-02,656537.0,Derek Hill,chicago white sox,BB,0.5,0,BASE,0,0
+2026-06-02,656577.0,Alex Jackson,minnesota twins,BB,0.5,0,BASE,0,0
+2026-06-02,663436.0,Davis Martin,chicago white sox,K,5.5,0,BASE,2,0
+2026-06-02,687570.0,Connor Prielipp,minnesota twins,K,4.5,0,BASE,7,1
+2026-06-02,663436.0,Davis Martin,chicago white sox,K,4.5,1,ALT,2,0
+2026-06-02,663436.0,Davis Martin,chicago white sox,K,6.5,1,ALT,2,0
+2026-06-02,687570.0,Connor Prielipp,minnesota twins,K,3.5,1,ALT,7,1
+2026-06-02,687570.0,Connor Prielipp,minnesota twins,K,5.5,1,ALT,7,1
+2026-06-02,694192.0,Jackson Chourio,milwaukee brewers,H,1.5,0,BASE,2,1
+2026-06-02,668930.0,Brice Turang,milwaukee brewers,H,1.5,0,BASE,2,1
+2026-06-02,661388.0,William Contreras,milwaukee brewers,H,0.5,0,BASE,1,1
+2026-06-02,592885.0,Christian Yelich,milwaukee brewers,H,0.5,0,BASE,2,1
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,H,0.5,0,BASE,0,0
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,H,0.5,0,BASE,2,1
+2026-06-02,650333.0,Luis Arraez,san francisco giants,H,0.5,0,BASE,2,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,H,0.5,0,BASE,1,1
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,H,0.5,0,BASE,0,0
+2026-06-02,642715.0,Willy Adames,san francisco giants,H,0.5,0,BASE,2,1
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,H,0.5,0,BASE,0,0
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,H,0.5,0,BASE,2,1
+2026-06-02,656305.0,Matt Chapman,san francisco giants,H,0.5,0,BASE,0,0
+2026-06-02,646240.0,Rafael Devers,san francisco giants,H,0.5,0,BASE,0,0
+2026-06-02,691740.0,Daniel Susac,san francisco giants,H,0.5,0,BASE,3,1
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,H,0.5,0,BASE,1,1
+2026-06-02,813841.0,Jonah Cox,san francisco giants,H,0.5,0,BASE,0,0
+2026-06-02,694192.0,Jackson Chourio,milwaukee brewers,HRR,1.5,0,BASE,5,1
+2026-06-02,661388.0,William Contreras,milwaukee brewers,HRR,1.5,0,BASE,1,0
+2026-06-02,668930.0,Brice Turang,milwaukee brewers,HRR,1.5,0,BASE,4,1
+2026-06-02,592885.0,Christian Yelich,milwaukee brewers,HRR,1.5,0,BASE,6,1
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,HRR,1.5,0,BASE,0,0
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,HRR,1.5,0,BASE,5,1
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,HRR,1.5,0,BASE,3,1
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,HRR,1.5,0,BASE,1,0
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,HRR,1.5,0,BASE,3,1
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,HRR,1.5,0,BASE,0,0
+2026-06-02,650333.0,Luis Arraez,san francisco giants,HRR,1.5,0,BASE,3,1
+2026-06-02,642715.0,Willy Adames,san francisco giants,HRR,0.5,0,BASE,4,1
+2026-06-02,656305.0,Matt Chapman,san francisco giants,HRR,0.5,0,BASE,0,0
+2026-06-02,646240.0,Rafael Devers,san francisco giants,HRR,0.5,0,BASE,0,0
+2026-06-02,691740.0,Daniel Susac,san francisco giants,HRR,0.5,0,BASE,3,1
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,HRR,0.5,0,BASE,1,1
+2026-06-02,813841.0,Jonah Cox,san francisco giants,HRR,0.5,0,BASE,0,0
+2026-06-02,694192.0,Jackson Chourio,milwaukee brewers,TB,1.5,0,BASE,3,1
+2026-06-02,668930.0,Brice Turang,milwaukee brewers,TB,1.5,0,BASE,2,1
+2026-06-02,661388.0,William Contreras,milwaukee brewers,TB,1.5,0,BASE,1,0
+2026-06-02,592885.0,Christian Yelich,milwaukee brewers,TB,1.5,0,BASE,2,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,TB,1.5,1,ALT,4,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,TB,2.5,1,ALT,4,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,TB,3.5,1,ALT,4,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,TB,4.5,1,ALT,4,0
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,TB,1.5,1,ALT,0,0
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,TB,2.5,1,ALT,0,0
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,TB,3.5,1,ALT,0,0
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,TB,4.5,1,ALT,0,0
+2026-06-02,642715.0,Willy Adames,san francisco giants,TB,1.5,1,ALT,5,1
+2026-06-02,642715.0,Willy Adames,san francisco giants,TB,2.5,1,ALT,5,1
+2026-06-02,642715.0,Willy Adames,san francisco giants,TB,3.5,1,ALT,5,1
+2026-06-02,642715.0,Willy Adames,san francisco giants,TB,4.5,1,ALT,5,1
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,TB,1.5,1,ALT,3,1
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,TB,2.5,1,ALT,3,1
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,TB,3.5,1,ALT,3,0
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,TB,4.5,1,ALT,3,0
+2026-06-02,656305.0,Matt Chapman,san francisco giants,TB,1.5,1,ALT,0,0
+2026-06-02,656305.0,Matt Chapman,san francisco giants,TB,2.5,1,ALT,0,0
+2026-06-02,656305.0,Matt Chapman,san francisco giants,TB,3.5,1,ALT,0,0
+2026-06-02,656305.0,Matt Chapman,san francisco giants,TB,4.5,1,ALT,0,0
+2026-06-02,646240.0,Rafael Devers,san francisco giants,TB,1.5,1,ALT,0,0
+2026-06-02,646240.0,Rafael Devers,san francisco giants,TB,2.5,1,ALT,0,0
+2026-06-02,646240.0,Rafael Devers,san francisco giants,TB,3.5,1,ALT,0,0
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,TB,1.5,1,ALT,0,0
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,TB,2.5,1,ALT,0,0
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,TB,3.5,1,ALT,0,0
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,TB,1.5,1,ALT,2,1
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,TB,2.5,1,ALT,2,0
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,TB,3.5,1,ALT,2,0
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,TB,1.5,1,ALT,0,0
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,TB,2.5,1,ALT,0,0
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,TB,3.5,1,ALT,0,0
+2026-06-02,691740.0,Daniel Susac,san francisco giants,TB,1.5,1,ALT,3,1
+2026-06-02,691740.0,Daniel Susac,san francisco giants,TB,2.5,1,ALT,3,1
+2026-06-02,691740.0,Daniel Susac,san francisco giants,TB,3.5,1,ALT,3,0
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,TB,1.5,1,ALT,1,0
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,TB,2.5,1,ALT,1,0
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,TB,3.5,1,ALT,1,0
+2026-06-02,650333.0,Luis Arraez,san francisco giants,TB,1.5,1,ALT,5,1
+2026-06-02,650333.0,Luis Arraez,san francisco giants,TB,2.5,1,ALT,5,1
+2026-06-02,650333.0,Luis Arraez,san francisco giants,TB,3.5,1,ALT,5,1
+2026-06-02,813841.0,Jonah Cox,san francisco giants,TB,1.5,1,ALT,0,0
+2026-06-02,813841.0,Jonah Cox,san francisco giants,TB,2.5,1,ALT,0,0
+2026-06-02,813841.0,Jonah Cox,san francisco giants,TB,3.5,1,ALT,0,0
+2026-06-02,668930.0,Brice Turang,milwaukee brewers,BB,0.5,0,BASE,1,1
+2026-06-02,592885.0,Christian Yelich,milwaukee brewers,BB,0.5,0,BASE,2,1
+2026-06-02,641343.0,Jake Bauers,milwaukee brewers,BB,0.5,0,BASE,0,0
+2026-06-02,669003.0,Garrett Mitchell,milwaukee brewers,BB,0.5,0,BASE,1,1
+2026-06-02,661388.0,William Contreras,milwaukee brewers,BB,0.5,0,BASE,1,1
+2026-06-02,686217.0,Sal Frelick,milwaukee brewers,BB,0.5,0,BASE,0,0
+2026-06-02,666152.0,David Hamilton,milwaukee brewers,BB,0.5,0,BASE,1,1
+2026-06-02,650859.0,Luis Rengifo,milwaukee brewers,BB,0.5,0,BASE,0,0
+2026-06-02,656305.0,Matt Chapman,san francisco giants,BB,0.5,0,BASE,1,1
+2026-06-02,694192.0,Jackson Chourio,milwaukee brewers,BB,0.5,0,BASE,1,1
+2026-06-02,646240.0,Rafael Devers,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,642715.0,Willy Adames,san francisco giants,BB,0.5,0,BASE,1,1
+2026-06-02,669477.0,Casey Schmitt,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,813841.0,Jonah Cox,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,691740.0,Daniel Susac,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,650333.0,Luis Arraez,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,682674.0,Victor Bericoto,san francisco giants,BB,0.5,0,BASE,0,0
+2026-06-02,690986.0,Kyle Harrison,milwaukee brewers,K,7.5,0,BASE,12,1
+2026-06-02,686790.0,Trevor McDonald,san francisco giants,K,4.5,0,BASE,4,0
+2026-06-02,690986.0,Kyle Harrison,milwaukee brewers,K,6.5,1,ALT,12,1
+2026-06-02,690986.0,Kyle Harrison,milwaukee brewers,K,8.5,1,ALT,12,1
+2026-06-02,686790.0,Trevor McDonald,san francisco giants,K,3.5,1,ALT,4,1
+2026-06-02,686790.0,Trevor McDonald,san francisco giants,K,5.5,1,ALT,4,0
+2026-06-02,673962.0,Josh Jung,texas rangers,H,1.5,0,BASE,1,0
+2026-06-02,676475.0,Alec Burleson,st. louis cardinals,H,0.5,0,BASE,2,1
+2026-06-02,677649.0,Ezequiel Duran,texas rangers,H,0.5,0,BASE,0,0
+2026-06-02,802139.0,JJ Wetherholt,st. louis cardinals,H,0.5,0,BASE,2,1
+2026-06-02,671056.0,Ivan Herrera,st. louis cardinals,H,0.5,0,BASE,1,1
+2026-06-02,669394.0,Jake Burger,texas rangers,H,0.5,0,BASE,0,0
+2026-06-02,691023.0,Jordan Walker,st. louis cardinals,H,0.5,0,BASE,1,1
+2026-06-02,607043.0,Brandon Nimmo,texas rangers,H,0.5,0,BASE,0,0
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,H,0.5,0,BASE,2,1
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,H,0.5,0,BASE,0,0
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,H,0.5,0,BASE,1,1
+2026-06-02,694497.0,Evan Carter,texas rangers,H,0.5,0,BASE,1,1
+2026-06-02,592626.0,Joc Pederson,texas rangers,H,0.5,0,BASE,3,1
+2026-06-02,670032.0,Nicky Lopez,texas rangers,H,0.5,0,BASE,0,0
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,H,0.5,0,BASE,2,1
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,H,0.5,0,BASE,3,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,H,0.5,0,BASE,1,1
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,H,0.5,0,BASE,1,1
+2026-06-02,673962.0,Josh Jung,texas rangers,HRR,1.5,0,BASE,3,1
+2026-06-02,802139.0,JJ Wetherholt,st. louis cardinals,HRR,1.5,0,BASE,3,1
+2026-06-02,676475.0,Alec Burleson,st. louis cardinals,HRR,1.5,0,BASE,3,1
+2026-06-02,691023.0,Jordan Walker,st. louis cardinals,HRR,1.5,0,BASE,2,1
+2026-06-02,671056.0,Ivan Herrera,st. louis cardinals,HRR,1.5,0,BASE,2,1
+2026-06-02,669394.0,Jake Burger,texas rangers,HRR,1.5,0,BASE,1,0
+2026-06-02,607043.0,Brandon Nimmo,texas rangers,HRR,1.5,0,BASE,1,0
+2026-06-02,677649.0,Ezequiel Duran,texas rangers,HRR,1.5,0,BASE,0,0
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,HRR,1.5,0,BASE,1,0
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,HRR,1.5,0,BASE,2,1
+2026-06-02,592626.0,Joc Pederson,texas rangers,HRR,1.5,0,BASE,6,1
+2026-06-02,694497.0,Evan Carter,texas rangers,HRR,1.5,0,BASE,3,1
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,HRR,1.5,0,BASE,2,1
+2026-06-02,670032.0,Nicky Lopez,texas rangers,HRR,1.5,0,BASE,2,1
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,HRR,0.5,0,BASE,3,1
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,HRR,0.5,0,BASE,4,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,HRR,0.5,0,BASE,3,1
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,HRR,0.5,0,BASE,1,1
+2026-06-02,673962.0,Josh Jung,texas rangers,TB,1.5,0,BASE,1,0
+2026-06-02,691023.0,Jordan Walker,st. louis cardinals,TB,1.5,0,BASE,1,0
+2026-06-02,802139.0,JJ Wetherholt,st. louis cardinals,TB,1.5,0,BASE,2,1
+2026-06-02,676475.0,Alec Burleson,st. louis cardinals,TB,1.5,0,BASE,3,1
+2026-06-02,669394.0,Jake Burger,texas rangers,TB,1.5,0,BASE,0,0
+2026-06-02,607043.0,Brandon Nimmo,texas rangers,TB,1.5,0,BASE,0,0
+2026-06-02,677649.0,Ezequiel Duran,texas rangers,TB,1.5,0,BASE,0,0
+2026-06-02,671056.0,Ivan Herrera,st. louis cardinals,TB,1.5,0,BASE,1,0
+2026-06-02,592626.0,Joc Pederson,texas rangers,TB,1.5,1,ALT,5,1
+2026-06-02,592626.0,Joc Pederson,texas rangers,TB,2.5,1,ALT,5,1
+2026-06-02,592626.0,Joc Pederson,texas rangers,TB,3.5,1,ALT,5,1
+2026-06-02,592626.0,Joc Pederson,texas rangers,TB,4.5,1,ALT,5,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,TB,1.5,1,ALT,4,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,TB,2.5,1,ALT,4,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,TB,3.5,1,ALT,4,1
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,TB,4.5,1,ALT,4,0
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,TB,1.5,1,ALT,0,0
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,TB,2.5,1,ALT,0,0
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,TB,3.5,1,ALT,0,0
+2026-06-02,694497.0,Evan Carter,texas rangers,TB,1.5,1,ALT,1,0
+2026-06-02,694497.0,Evan Carter,texas rangers,TB,2.5,1,ALT,1,0
+2026-06-02,694497.0,Evan Carter,texas rangers,TB,3.5,1,ALT,1,0
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,TB,1.5,1,ALT,4,1
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,TB,2.5,1,ALT,4,1
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,TB,3.5,1,ALT,4,1
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,TB,1.5,1,ALT,3,1
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,TB,2.5,1,ALT,3,1
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,TB,3.5,1,ALT,3,0
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,TB,1.5,1,ALT,2,1
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,TB,2.5,1,ALT,2,0
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,TB,3.5,1,ALT,2,0
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,TB,1.5,1,ALT,1,0
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,TB,2.5,1,ALT,1,0
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,TB,3.5,1,ALT,1,0
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,TB,1.5,1,ALT,1,0
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,TB,2.5,1,ALT,1,0
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,TB,3.5,1,ALT,1,0
+2026-06-02,670032.0,Nicky Lopez,texas rangers,TB,1.5,1,ALT,0,0
+2026-06-02,670032.0,Nicky Lopez,texas rangers,TB,2.5,1,ALT,0,0
+2026-06-02,670032.0,Nicky Lopez,texas rangers,TB,3.5,1,ALT,0,0
+2026-06-02,592626.0,Joc Pederson,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,607043.0,Brandon Nimmo,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,671056.0,Ivan Herrera,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,694497.0,Evan Carter,texas rangers,BB,0.5,0,BASE,1,1
+2026-06-02,802139.0,JJ Wetherholt,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,699625.0,Jimmy Crooks,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,669357.0,Nolan Gorman,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,663494.0,Bryan Torres,st. louis cardinals,BB,0.5,0,BASE,1,1
+2026-06-02,691026.0,Masyn Winn,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,696030.0,Alejandro Osuna,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,676475.0,Alec Burleson,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,691023.0,Jordan Walker,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,687363.0,Victor Scott II,st. louis cardinals,BB,0.5,0,BASE,0,0
+2026-06-02,669394.0,Jake Burger,texas rangers,BB,0.5,0,BASE,1,1
+2026-06-02,670032.0,Nicky Lopez,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,543309.0,Kyle Higashioka,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,677649.0,Ezequiel Duran,texas rangers,BB,0.5,0,BASE,1,1
+2026-06-02,673962.0,Josh Jung,texas rangers,BB,0.5,0,BASE,0,0
+2026-06-02,543135.0,Nathan Eovaldi,texas rangers,K,5.5,0,BASE,7,1
+2026-06-02,669160.0,Dustin May,st. louis cardinals,K,4.5,0,BASE,9,1
+2026-06-02,543135.0,Nathan Eovaldi,texas rangers,K,4.5,1,ALT,7,1
+2026-06-02,543135.0,Nathan Eovaldi,texas rangers,K,6.5,1,ALT,7,1
+2026-06-02,669160.0,Dustin May,st. louis cardinals,K,3.5,1,ALT,9,1
+2026-06-02,669160.0,Dustin May,st. louis cardinals,K,5.5,1,ALT,9,1
+2026-06-02,663538.0,Nico Hoerner,chicago cubs,H,1.5,0,BASE,1,0
+2026-06-02,608324.0,Alex Bregman,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,666126.0,Carlos Cortes,athletics,H,0.5,0,BASE,0,0
+2026-06-02,673548.0,Seiya Suzuki,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,691016.0,Tyler Soderstrom,athletics,H,0.5,0,BASE,1,1
+2026-06-02,701762.0,Nick Kurtz,athletics,H,0.5,0,BASE,1,1
+2026-06-02,703607.0,Henry Bolte,athletics,H,0.5,0,BASE,1,1
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,H,0.5,0,BASE,2,1
+2026-06-02,669127.0,Shea Langeliers,athletics,H,0.5,0,BASE,0,0
+2026-06-02,667670.0,Brent Rooker,athletics,H,0.5,0,BASE,1,1
+2026-06-02,664023.0,Ian Happ,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,643446.0,Jeff McNeil,athletics,H,0.5,0,BASE,1,1
+2026-06-02,683737.0,Michael Busch,chicago cubs,H,0.5,0,BASE,1,1
+2026-06-02,687231.0,Darell Hernaiz,athletics,H,0.5,0,BASE,0,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,680869.0,Zack Gelof,athletics,H,0.5,0,BASE,1,1
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,H,0.5,0,BASE,0,0
+2026-06-02,663538.0,Nico Hoerner,chicago cubs,HRR,1.5,0,BASE,2,1
+2026-06-02,608324.0,Alex Bregman,chicago cubs,HRR,1.5,0,BASE,1,0
+2026-06-02,701762.0,Nick Kurtz,athletics,HRR,1.5,0,BASE,3,1
+2026-06-02,673548.0,Seiya Suzuki,chicago cubs,HRR,1.5,0,BASE,0,0
+2026-06-02,666126.0,Carlos Cortes,athletics,HRR,1.5,0,BASE,0,0
+2026-06-02,691016.0,Tyler Soderstrom,athletics,HRR,1.5,0,BASE,1,0
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,HRR,1.5,0,BASE,2,1
+2026-06-02,669127.0,Shea Langeliers,athletics,HRR,1.5,0,BASE,0,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,HRR,1.5,0,BASE,0,0
+2026-06-02,667670.0,Brent Rooker,athletics,HRR,1.5,0,BASE,2,1
+2026-06-02,703607.0,Henry Bolte,athletics,HRR,1.5,0,BASE,1,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,HRR,1.5,0,BASE,0,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,HRR,1.5,0,BASE,1,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,HRR,1.5,0,BASE,0,0
+2026-06-02,643446.0,Jeff McNeil,athletics,HRR,1.5,0,BASE,1,0
+2026-06-02,687231.0,Darell Hernaiz,athletics,HRR,0.5,0,BASE,0,0
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,HRR,0.5,0,BASE,0,0
+2026-06-02,680869.0,Zack Gelof,athletics,HRR,0.5,0,BASE,2,1
+2026-06-02,663538.0,Nico Hoerner,chicago cubs,TB,1.5,0,BASE,1,0
+2026-06-02,701762.0,Nick Kurtz,athletics,TB,1.5,0,BASE,4,1
+2026-06-02,666126.0,Carlos Cortes,athletics,TB,1.5,0,BASE,0,0
+2026-06-02,691016.0,Tyler Soderstrom,athletics,TB,1.5,0,BASE,1,0
+2026-06-02,673548.0,Seiya Suzuki,chicago cubs,TB,1.5,0,BASE,0,0
+2026-06-02,608324.0,Alex Bregman,chicago cubs,TB,1.5,0,BASE,0,0
+2026-06-02,669127.0,Shea Langeliers,athletics,TB,1.5,1,ALT,0,0
+2026-06-02,669127.0,Shea Langeliers,athletics,TB,2.5,1,ALT,0,0
+2026-06-02,669127.0,Shea Langeliers,athletics,TB,3.5,1,ALT,0,0
+2026-06-02,669127.0,Shea Langeliers,athletics,TB,4.5,1,ALT,0,0
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,TB,1.5,1,ALT,2,1
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,TB,2.5,1,ALT,2,0
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,TB,3.5,1,ALT,2,0
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,TB,4.5,1,ALT,2,0
+2026-06-02,667670.0,Brent Rooker,athletics,TB,1.5,1,ALT,1,0
+2026-06-02,667670.0,Brent Rooker,athletics,TB,2.5,1,ALT,1,0
+2026-06-02,667670.0,Brent Rooker,athletics,TB,3.5,1,ALT,1,0
+2026-06-02,667670.0,Brent Rooker,athletics,TB,4.5,1,ALT,1,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,TB,1.5,1,ALT,0,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,TB,2.5,1,ALT,0,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,TB,3.5,1,ALT,0,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,TB,4.5,1,ALT,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,TB,1.5,1,ALT,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,TB,2.5,1,ALT,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,TB,3.5,1,ALT,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,TB,4.5,1,ALT,0,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,TB,1.5,1,ALT,1,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,TB,2.5,1,ALT,1,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,TB,3.5,1,ALT,1,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,TB,4.5,1,ALT,1,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,TB,1.5,1,ALT,0,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,TB,2.5,1,ALT,0,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,TB,3.5,1,ALT,0,0
+2026-06-02,680869.0,Zack Gelof,athletics,TB,1.5,1,ALT,1,0
+2026-06-02,680869.0,Zack Gelof,athletics,TB,2.5,1,ALT,1,0
+2026-06-02,680869.0,Zack Gelof,athletics,TB,3.5,1,ALT,1,0
+2026-06-02,703607.0,Henry Bolte,athletics,TB,1.5,1,ALT,1,0
+2026-06-02,703607.0,Henry Bolte,athletics,TB,2.5,1,ALT,1,0
+2026-06-02,703607.0,Henry Bolte,athletics,TB,3.5,1,ALT,1,0
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,TB,1.5,1,ALT,0,0
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,TB,2.5,1,ALT,0,0
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,TB,3.5,1,ALT,0,0
+2026-06-02,643446.0,Jeff McNeil,athletics,TB,1.5,1,ALT,1,0
+2026-06-02,643446.0,Jeff McNeil,athletics,TB,2.5,1,ALT,1,0
+2026-06-02,643446.0,Jeff McNeil,athletics,TB,3.5,1,ALT,1,0
+2026-06-02,687231.0,Darell Hernaiz,athletics,TB,1.5,1,ALT,0,0
+2026-06-02,687231.0,Darell Hernaiz,athletics,TB,2.5,1,ALT,0,0
+2026-06-02,687231.0,Darell Hernaiz,athletics,TB,3.5,1,ALT,0,0
+2026-06-02,701762.0,Nick Kurtz,athletics,BB,0.5,0,BASE,1,1
+2026-06-02,673548.0,Seiya Suzuki,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,608324.0,Alex Bregman,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,664023.0,Ian Happ,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,691016.0,Tyler Soderstrom,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,683737.0,Michael Busch,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,608348.0,Carson Kelly,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,621020.0,Dansby Swanson,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,691718.0,Pete Crow-Armstrong,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,666126.0,Carlos Cortes,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,663538.0,Nico Hoerner,chicago cubs,BB,0.5,0,BASE,2,1
+2026-06-02,682634.0,Kevin Alcantara,chicago cubs,BB,0.5,0,BASE,0,0
+2026-06-02,669127.0,Shea Langeliers,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,667670.0,Brent Rooker,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,643446.0,Jeff McNeil,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,703607.0,Henry Bolte,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,680869.0,Zack Gelof,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,687231.0,Darell Hernaiz,athletics,BB,0.5,0,BASE,0,0
+2026-06-02,592791.0,Jameson Taillon,chicago cubs,K,4.5,0,BASE,6,1
+2026-06-02,592791.0,Jameson Taillon,chicago cubs,K,3.5,1,ALT,6,1
+2026-06-02,592791.0,Jameson Taillon,chicago cubs,K,5.5,1,ALT,6,1
+2026-06-02,665161.0,Jeremy Pena,houston astros,H,1.5,0,BASE,2,1
+2026-06-02,687462.0,Spencer Horwitz,pittsburgh pirates,H,1.5,0,BASE,0,0
+2026-06-02,670541.0,Yordan Alvarez,houston astros,H,0.5,0,BASE,2,1
+2026-06-02,656811.0,Ryan O'Hearn,pittsburgh pirates,H,0.5,0,BASE,1,1
+2026-06-02,668804.0,Bryan Reynolds,pittsburgh pirates,H,0.5,0,BASE,0,0
+2026-06-02,693304.0,Nick Gonzales,pittsburgh pirates,H,0.5,0,BASE,3,1
+2026-06-02,664040.0,Brandon Lowe,pittsburgh pirates,H,0.5,0,BASE,1,1
+2026-06-02,665833.0,Oneil Cruz,pittsburgh pirates,H,0.5,0,BASE,2,1
+2026-06-02,572233.0,Christian Walker,houston astros,H,0.5,0,BASE,1,1
+2026-06-02,701358.0,Cam Smith,houston astros,H,0.5,0,BASE,0,0
+2026-06-02,676694.0,Jake Meyers,houston astros,H,0.5,0,BASE,1,1
+2026-06-02,670623.0,Isaac Paredes,houston astros,H,0.5,0,BASE,0,0
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,H,0.5,0,BASE,0,0
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,H,0.5,0,BASE,2,1
+2026-06-02,694728.0,Brice Matthews,houston astros,H,0.5,0,BASE,1,1
+2026-06-02,666211.0,Taylor Trammell,houston astros,H,0.5,0,BASE,0,0
+2026-06-02,543877.0,Christian Vazquez,houston astros,H,0.5,0,BASE,1,1
+2026-06-02,670541.0,Yordan Alvarez,houston astros,HRR,2.5,0,BASE,6,1
+2026-06-02,687462.0,Spencer Horwitz,pittsburgh pirates,HRR,1.5,0,BASE,0,0
+2026-06-02,665161.0,Jeremy Pena,houston astros,HRR,1.5,0,BASE,6,1
+2026-06-02,656811.0,Ryan O'Hearn,pittsburgh pirates,HRR,1.5,0,BASE,2,1
+2026-06-02,668804.0,Bryan Reynolds,pittsburgh pirates,HRR,1.5,0,BASE,0,0
+2026-06-02,664040.0,Brandon Lowe,pittsburgh pirates,HRR,1.5,0,BASE,5,1
+2026-06-02,693304.0,Nick Gonzales,pittsburgh pirates,HRR,1.5,0,BASE,6,1
+2026-06-02,665833.0,Oneil Cruz,pittsburgh pirates,HRR,1.5,0,BASE,6,1
+2026-06-02,572233.0,Christian Walker,houston astros,HRR,1.5,0,BASE,2,1
+2026-06-02,670623.0,Isaac Paredes,houston astros,HRR,1.5,0,BASE,0,0
+2026-06-02,701358.0,Cam Smith,houston astros,HRR,1.5,0,BASE,0,0
+2026-06-02,676694.0,Jake Meyers,houston astros,HRR,1.5,0,BASE,2,1
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,HRR,1.5,0,BASE,7,1
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,HRR,1.5,0,BASE,1,0
+2026-06-02,666211.0,Taylor Trammell,houston astros,HRR,1.5,0,BASE,0,0
+2026-06-02,694728.0,Brice Matthews,houston astros,HRR,1.5,0,BASE,2,1
+2026-06-02,543877.0,Christian Vazquez,houston astros,HRR,0.5,0,BASE,2,1
+2026-06-02,670541.0,Yordan Alvarez,houston astros,TB,1.5,0,BASE,5,1
+2026-06-02,687462.0,Spencer Horwitz,pittsburgh pirates,TB,1.5,0,BASE,0,0
+2026-06-02,665161.0,Jeremy Pena,houston astros,TB,1.5,0,BASE,2,1
+2026-06-02,664040.0,Brandon Lowe,pittsburgh pirates,TB,1.5,0,BASE,4,1
+2026-06-02,656811.0,Ryan O'Hearn,pittsburgh pirates,TB,1.5,0,BASE,1,0
+2026-06-02,668804.0,Bryan Reynolds,pittsburgh pirates,TB,1.5,0,BASE,0,0
+2026-06-02,572233.0,Christian Walker,houston astros,TB,1.5,0,BASE,1,0
+2026-06-02,665833.0,Oneil Cruz,pittsburgh pirates,TB,1.5,0,BASE,5,1
+2026-06-02,693304.0,Nick Gonzales,pittsburgh pirates,TB,1.5,0,BASE,3,1
+2026-06-02,670623.0,Isaac Paredes,houston astros,TB,1.5,1,ALT,0,0
+2026-06-02,670623.0,Isaac Paredes,houston astros,TB,2.5,1,ALT,0,0
+2026-06-02,670623.0,Isaac Paredes,houston astros,TB,3.5,1,ALT,0,0
+2026-06-02,670623.0,Isaac Paredes,houston astros,TB,4.5,1,ALT,0,0
+2026-06-02,666211.0,Taylor Trammell,houston astros,TB,1.5,1,ALT,0,0
+2026-06-02,666211.0,Taylor Trammell,houston astros,TB,2.5,1,ALT,0,0
+2026-06-02,666211.0,Taylor Trammell,houston astros,TB,3.5,1,ALT,0,0
+2026-06-02,666211.0,Taylor Trammell,houston astros,TB,4.5,1,ALT,0,0
+2026-06-02,701358.0,Cam Smith,houston astros,TB,1.5,1,ALT,0,0
+2026-06-02,701358.0,Cam Smith,houston astros,TB,2.5,1,ALT,0,0
+2026-06-02,701358.0,Cam Smith,houston astros,TB,3.5,1,ALT,0,0
+2026-06-02,701358.0,Cam Smith,houston astros,TB,4.5,1,ALT,0,0
+2026-06-02,694728.0,Brice Matthews,houston astros,TB,1.5,1,ALT,1,0
+2026-06-02,694728.0,Brice Matthews,houston astros,TB,2.5,1,ALT,1,0
+2026-06-02,694728.0,Brice Matthews,houston astros,TB,3.5,1,ALT,1,0
+2026-06-02,694728.0,Brice Matthews,houston astros,TB,4.5,1,ALT,1,0
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,TB,1.5,1,ALT,6,1
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,TB,2.5,1,ALT,6,1
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,TB,3.5,1,ALT,6,1
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,TB,4.5,1,ALT,6,1
+2026-06-02,676694.0,Jake Meyers,houston astros,TB,1.5,1,ALT,2,1
+2026-06-02,676694.0,Jake Meyers,houston astros,TB,2.5,1,ALT,2,0
+2026-06-02,676694.0,Jake Meyers,houston astros,TB,3.5,1,ALT,2,0
+2026-06-02,676694.0,Jake Meyers,houston astros,TB,4.5,1,ALT,2,0
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,TB,1.5,1,ALT,0,0
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,TB,2.5,1,ALT,0,0
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,TB,3.5,1,ALT,0,0
+2026-06-02,543877.0,Christian Vazquez,houston astros,TB,1.5,1,ALT,1,0
+2026-06-02,543877.0,Christian Vazquez,houston astros,TB,2.5,1,ALT,1,0
+2026-06-02,543877.0,Christian Vazquez,houston astros,TB,3.5,1,ALT,1,0
+2026-06-02,670541.0,Yordan Alvarez,houston astros,BB,0.5,0,BASE,1,1
+2026-06-02,668804.0,Bryan Reynolds,pittsburgh pirates,BB,0.5,0,BASE,2,1
+2026-06-02,670623.0,Isaac Paredes,houston astros,BB,0.5,0,BASE,1,1
+2026-06-02,687462.0,Spencer Horwitz,pittsburgh pirates,BB,0.5,0,BASE,1,1
+2026-06-02,701358.0,Cam Smith,houston astros,BB,0.5,0,BASE,2,1
+2026-06-02,665833.0,Oneil Cruz,pittsburgh pirates,BB,0.5,0,BASE,0,0
+2026-06-02,656811.0,Ryan O'Hearn,pittsburgh pirates,BB,0.5,0,BASE,1,1
+2026-06-02,666211.0,Taylor Trammell,houston astros,BB,0.5,0,BASE,0,0
+2026-06-02,572233.0,Christian Walker,houston astros,BB,0.5,0,BASE,0,0
+2026-06-02,664040.0,Brandon Lowe,pittsburgh pirates,BB,0.5,0,BASE,0,0
+2026-06-02,694728.0,Brice Matthews,houston astros,BB,0.5,0,BASE,0,0
+2026-06-02,682848.0,Endy Rodriguez,pittsburgh pirates,BB,0.5,0,BASE,1,1
+2026-06-02,669707.0,Jared Triolo,pittsburgh pirates,BB,0.5,0,BASE,2,1
+2026-06-02,665161.0,Jeremy Pena,houston astros,BB,0.5,0,BASE,0,0
+2026-06-02,676694.0,Jake Meyers,houston astros,BB,0.5,0,BASE,0,0
+2026-06-02,693304.0,Nick Gonzales,pittsburgh pirates,BB,0.5,0,BASE,1,1
+2026-06-02,543877.0,Christian Vazquez,houston astros,BB,0.5,0,BASE,1,1
+2026-06-02,663968.0,Jake Mangum,pittsburgh pirates,BB,0.5,0,BASE,0,0
+2026-06-02,681347.0,Mike Burrows,houston astros,K,5.5,0,BASE,3,0
+2026-06-02,696149.0,Bubba Chandler,pittsburgh pirates,K,4.5,0,BASE,3,0
+2026-06-02,681347.0,Mike Burrows,houston astros,K,4.5,1,ALT,3,0
+2026-06-02,681347.0,Mike Burrows,houston astros,K,6.5,1,ALT,3,0
+2026-06-02,696149.0,Bubba Chandler,pittsburgh pirates,K,3.5,1,ALT,3,0
+2026-06-02,696149.0,Bubba Chandler,pittsburgh pirates,K,5.5,1,ALT,3,0
+2026-06-02,687093.0,Vaughn Grissom,los angeles angels,H,1.5,0,BASE,1,0
+2026-06-02,545361.0,Mike Trout,los angeles angels,H,0.5,0,BASE,1,1
+2026-06-02,624585.0,Jorge Soler,los angeles angels,H,0.5,0,BASE,1,1
+2026-06-02,685133.0,Wade Meckler,los angeles angels,H,0.5,0,BASE,2,1
+2026-06-02,666176.0,Jo Adell,los angeles angels,H,0.5,0,BASE,0,0
+2026-06-02,681198.0,TJ Rumfield,colorado rockies,H,0.5,0,BASE,2,1
+2026-06-02,664983.0,Jake McCarthy,colorado rockies,H,0.5,0,BASE,2,1
+2026-06-02,696100.0,Hunter Goodman,colorado rockies,H,0.5,0,BASE,2,1
+2026-06-02,678662.0,Ezequiel Tovar,colorado rockies,H,0.5,0,BASE,0,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,H,0.5,0,BASE,1,1
+2026-06-02,687859.0,Troy Johnston,colorado rockies,H,0.5,0,BASE,2,1
+2026-06-02,622268.0,Donovan Walton,los angeles angels,H,0.5,0,BASE,1,1
+2026-06-02,650489.0,Willi Castro,colorado rockies,H,0.5,0,BASE,1,1
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,H,0.5,0,BASE,0,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,H,0.5,0,BASE,1,1
+2026-06-02,545361.0,Mike Trout,los angeles angels,HRR,1.5,0,BASE,2,1
+2026-06-02,687093.0,Vaughn Grissom,los angeles angels,HRR,1.5,0,BASE,1,0
+2026-06-02,624585.0,Jorge Soler,los angeles angels,HRR,1.5,0,BASE,2,1
+2026-06-02,666176.0,Jo Adell,los angeles angels,HRR,1.5,0,BASE,0,0
+2026-06-02,681198.0,TJ Rumfield,colorado rockies,HRR,1.5,0,BASE,4,1
+2026-06-02,696100.0,Hunter Goodman,colorado rockies,HRR,1.5,0,BASE,4,1
+2026-06-02,685133.0,Wade Meckler,los angeles angels,HRR,1.5,0,BASE,4,1
+2026-06-02,664983.0,Jake McCarthy,colorado rockies,HRR,1.5,0,BASE,4,1
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,HRR,1.5,0,BASE,1,0
+2026-06-02,678662.0,Ezequiel Tovar,colorado rockies,HRR,1.5,0,BASE,1,0
+2026-06-02,687859.0,Troy Johnston,colorado rockies,HRR,1.5,0,BASE,3,1
+2026-06-02,622268.0,Donovan Walton,los angeles angels,HRR,1.5,0,BASE,1,0
+2026-06-02,650489.0,Willi Castro,colorado rockies,HRR,1.5,0,BASE,5,1
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,HRR,0.5,0,BASE,1,1
+2026-06-02,691720.0,Kyle Karros,colorado rockies,HRR,0.5,0,BASE,2,1
+2026-06-02,545361.0,Mike Trout,los angeles angels,TB,1.5,0,BASE,1,0
+2026-06-02,687093.0,Vaughn Grissom,los angeles angels,TB,1.5,0,BASE,2,1
+2026-06-02,666176.0,Jo Adell,los angeles angels,TB,1.5,0,BASE,0,0
+2026-06-02,696100.0,Hunter Goodman,colorado rockies,TB,1.5,0,BASE,6,1
+2026-06-02,624585.0,Jorge Soler,los angeles angels,TB,1.5,0,BASE,2,1
+2026-06-02,681198.0,TJ Rumfield,colorado rockies,TB,1.5,0,BASE,5,1
+2026-06-02,664983.0,Jake McCarthy,colorado rockies,TB,1.5,0,BASE,3,1
+2026-06-02,685133.0,Wade Meckler,los angeles angels,TB,1.5,0,BASE,4,1
+2026-06-02,678662.0,Ezequiel Tovar,colorado rockies,TB,1.5,0,BASE,0,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,TB,1.5,1,ALT,1,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,TB,2.5,1,ALT,1,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,TB,3.5,1,ALT,1,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,TB,4.5,1,ALT,1,0
+2026-06-02,622268.0,Donovan Walton,los angeles angels,TB,1.5,1,ALT,2,1
+2026-06-02,622268.0,Donovan Walton,los angeles angels,TB,2.5,1,ALT,2,0
+2026-06-02,622268.0,Donovan Walton,los angeles angels,TB,3.5,1,ALT,2,0
+2026-06-02,622268.0,Donovan Walton,los angeles angels,TB,4.5,1,ALT,2,0
+2026-06-02,687859.0,Troy Johnston,colorado rockies,TB,1.5,1,ALT,3,1
+2026-06-02,687859.0,Troy Johnston,colorado rockies,TB,2.5,1,ALT,3,1
+2026-06-02,687859.0,Troy Johnston,colorado rockies,TB,3.5,1,ALT,3,0
+2026-06-02,687859.0,Troy Johnston,colorado rockies,TB,4.5,1,ALT,3,0
+2026-06-02,650489.0,Willi Castro,colorado rockies,TB,1.5,1,ALT,4,1
+2026-06-02,650489.0,Willi Castro,colorado rockies,TB,2.5,1,ALT,4,1
+2026-06-02,650489.0,Willi Castro,colorado rockies,TB,3.5,1,ALT,4,1
+2026-06-02,650489.0,Willi Castro,colorado rockies,TB,4.5,1,ALT,4,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,TB,1.5,1,ALT,1,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,TB,2.5,1,ALT,1,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,TB,3.5,1,ALT,1,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,TB,4.5,1,ALT,1,0
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,TB,1.5,1,ALT,0,0
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,TB,2.5,1,ALT,0,0
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,TB,3.5,1,ALT,0,0
+2026-06-02,545361.0,Mike Trout,los angeles angels,BB,0.5,0,BASE,1,1
+2026-06-02,681198.0,TJ Rumfield,colorado rockies,BB,0.5,0,BASE,0,0
+2026-06-02,691720.0,Kyle Karros,colorado rockies,BB,0.5,0,BASE,1,1
+2026-06-02,650489.0,Willi Castro,colorado rockies,BB,0.5,0,BASE,0,0
+2026-06-02,624585.0,Jorge Soler,los angeles angels,BB,0.5,0,BASE,0,0
+2026-06-02,687859.0,Troy Johnston,colorado rockies,BB,0.5,0,BASE,1,1
+2026-06-02,685133.0,Wade Meckler,los angeles angels,BB,0.5,0,BASE,1,1
+2026-06-02,664983.0,Jake McCarthy,colorado rockies,BB,0.5,0,BASE,0,0
+2026-06-02,694514.0,Sterlin Thompson,colorado rockies,BB,0.5,0,BASE,2,1
+2026-06-02,678662.0,Ezequiel Tovar,colorado rockies,BB,0.5,0,BASE,0,0
+2026-06-02,696100.0,Hunter Goodman,colorado rockies,BB,0.5,0,BASE,1,1
+2026-06-02,687093.0,Vaughn Grissom,los angeles angels,BB,0.5,0,BASE,0,0
+2026-06-02,622268.0,Donovan Walton,los angeles angels,BB,0.5,0,BASE,0,0
+2026-06-02,666176.0,Jo Adell,los angeles angels,BB,0.5,0,BASE,0,0
+2026-06-02,672724.0,Oswald Peraza,los angeles angels,BB,0.5,0,BASE,0,0
+2026-06-02,608372.0,Tomoyuki Sugano,colorado rockies,K,3.5,0,BASE,5,1
+2026-06-02,608372.0,Tomoyuki Sugano,colorado rockies,K,2.5,1,ALT,5,1
+2026-06-02,608372.0,Tomoyuki Sugano,colorado rockies,K,4.5,1,ALT,5,1
+2026-06-02,606466.0,Ketel Marte,arizona diamondbacks,H,1.5,0,BASE,0,0
+2026-06-02,660271.0,Shohei Ohtani,los angeles dodgers,H,1.5,0,BASE,2,1
+2026-06-02,682998.0,Corbin Carroll,arizona diamondbacks,H,0.5,0,BASE,2,1
+2026-06-02,681624.0,Andy Pages,los angeles dodgers,H,0.5,0,BASE,1,1
+2026-06-02,518692.0,Freddie Freeman,los angeles dodgers,H,0.5,0,BASE,3,1
+2026-06-02,672695.0,Geraldo Perdomo,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,605141.0,Mookie Betts,los angeles dodgers,H,0.5,0,BASE,1,1
+2026-06-02,545121.0,Ildemaro Vargas,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,571448.0,Nolan Arenado,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,672515.0,Gabriel Moreno,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,663656.0,Kyle Tucker,los angeles dodgers,H,0.5,0,BASE,0,0
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,H,0.5,0,BASE,2,1
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,H,0.5,0,BASE,0,0
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,H,0.5,0,BASE,1,1
+2026-06-02,669743.0,Alex Call,los angeles dodgers,H,0.5,0,BASE,0,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,H,0.5,0,BASE,1,1
+2026-06-02,660271.0,Shohei Ohtani,los angeles dodgers,HRR,2.5,0,BASE,6,1
+2026-06-02,606466.0,Ketel Marte,arizona diamondbacks,HRR,2.5,0,BASE,2,0
+2026-06-02,682998.0,Corbin Carroll,arizona diamondbacks,HRR,1.5,0,BASE,4,1
+2026-06-02,681624.0,Andy Pages,los angeles dodgers,HRR,1.5,0,BASE,2,1
+2026-06-02,518692.0,Freddie Freeman,los angeles dodgers,HRR,1.5,0,BASE,6,1
+2026-06-02,605141.0,Mookie Betts,los angeles dodgers,HRR,1.5,0,BASE,2,1
+2026-06-02,672695.0,Geraldo Perdomo,arizona diamondbacks,HRR,1.5,0,BASE,1,0
+2026-06-02,545121.0,Ildemaro Vargas,arizona diamondbacks,HRR,1.5,0,BASE,1,0
+2026-06-02,571448.0,Nolan Arenado,arizona diamondbacks,HRR,1.5,0,BASE,4,1
+2026-06-02,663656.0,Kyle Tucker,los angeles dodgers,HRR,1.5,0,BASE,0,0
+2026-06-02,672515.0,Gabriel Moreno,arizona diamondbacks,HRR,1.5,0,BASE,2,1
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,HRR,1.5,0,BASE,0,0
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,HRR,1.5,0,BASE,2,1
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,HRR,1.5,0,BASE,1,0
+2026-06-02,669743.0,Alex Call,los angeles dodgers,HRR,1.5,0,BASE,0,0
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,HRR,1.5,0,BASE,1,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,HRR,1.5,0,BASE,2,1
+2026-06-02,606466.0,Ketel Marte,arizona diamondbacks,TB,1.5,0,BASE,0,0
+2026-06-02,660271.0,Shohei Ohtani,los angeles dodgers,TB,1.5,0,BASE,5,1
+2026-06-02,681624.0,Andy Pages,los angeles dodgers,TB,1.5,0,BASE,1,0
+2026-06-02,682998.0,Corbin Carroll,arizona diamondbacks,TB,1.5,0,BASE,5,1
+2026-06-02,518692.0,Freddie Freeman,los angeles dodgers,TB,1.5,0,BASE,6,1
+2026-06-02,605141.0,Mookie Betts,los angeles dodgers,TB,1.5,0,BASE,1,0
+2026-06-02,571448.0,Nolan Arenado,arizona diamondbacks,TB,1.5,0,BASE,2,1
+2026-06-02,545121.0,Ildemaro Vargas,arizona diamondbacks,TB,1.5,0,BASE,1,0
+2026-06-02,663656.0,Kyle Tucker,los angeles dodgers,TB,1.5,0,BASE,0,0
+2026-06-02,672515.0,Gabriel Moreno,arizona diamondbacks,TB,1.5,0,BASE,1,0
+2026-06-02,672695.0,Geraldo Perdomo,arizona diamondbacks,TB,1.5,0,BASE,1,0
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,TB,1.5,1,ALT,0,0
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,TB,2.5,1,ALT,0,0
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,TB,3.5,1,ALT,0,0
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,TB,4.5,1,ALT,0,0
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,TB,1.5,1,ALT,2,1
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,TB,2.5,1,ALT,2,0
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,TB,3.5,1,ALT,2,0
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,TB,4.5,1,ALT,2,0
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,TB,1.5,1,ALT,1,0
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,TB,2.5,1,ALT,1,0
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,TB,3.5,1,ALT,1,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,TB,1.5,1,ALT,1,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,TB,2.5,1,ALT,1,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,TB,3.5,1,ALT,1,0
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,TB,1.5,1,ALT,1,0
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,TB,2.5,1,ALT,1,0
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,TB,3.5,1,ALT,1,0
+2026-06-02,669743.0,Alex Call,los angeles dodgers,TB,1.5,1,ALT,0,0
+2026-06-02,669743.0,Alex Call,los angeles dodgers,TB,2.5,1,ALT,0,0
+2026-06-02,669743.0,Alex Call,los angeles dodgers,TB,3.5,1,ALT,0,0
+2026-06-02,660271.0,Shohei Ohtani,los angeles dodgers,BB,0.5,0,BASE,1,1
+2026-06-02,571970.0,Max Muncy,los angeles dodgers,BB,0.5,0,BASE,0,0
+2026-06-02,663656.0,Kyle Tucker,los angeles dodgers,BB,0.5,0,BASE,1,1
+2026-06-02,518692.0,Freddie Freeman,los angeles dodgers,BB,0.5,0,BASE,0,0
+2026-06-02,672695.0,Geraldo Perdomo,arizona diamondbacks,BB,0.5,0,BASE,0,0
+2026-06-02,669743.0,Alex Call,los angeles dodgers,BB,0.5,0,BASE,0,0
+2026-06-02,690976.0,Alex Freeland,los angeles dodgers,BB,0.5,0,BASE,0,0
+2026-06-02,605141.0,Mookie Betts,los angeles dodgers,BB,0.5,0,BASE,1,1
+2026-06-02,814439.0,Ryan Waldschmidt,arizona diamondbacks,BB,0.5,0,BASE,0,0
+2026-06-02,682998.0,Corbin Carroll,arizona diamondbacks,BB,0.5,0,BASE,0,0
+2026-06-02,606466.0,Ketel Marte,arizona diamondbacks,BB,0.5,0,BASE,1,1
+2026-06-02,672515.0,Gabriel Moreno,arizona diamondbacks,BB,0.5,0,BASE,2,1
+2026-06-02,694371.0,Tommy Troy,arizona diamondbacks,BB,0.5,0,BASE,0,0
+2026-06-02,545121.0,Ildemaro Vargas,arizona diamondbacks,BB,0.5,0,BASE,1,1
+2026-06-02,681624.0,Andy Pages,los angeles dodgers,BB,0.5,0,BASE,0,0
+2026-06-02,571448.0,Nolan Arenado,arizona diamondbacks,BB,0.5,0,BASE,1,1
+2026-06-02,699912.0,Jose Fernandez,arizona diamondbacks,BB,0.5,0,BASE,0,0
+2026-06-02,647336.0,Michael Soroka,arizona diamondbacks,K,4.5,0,BASE,6,1
+2026-06-02,641778.0,Eric Lauer,toronto blue jays,K,3.5,0,BASE,1,0
+2026-06-02,647336.0,Michael Soroka,arizona diamondbacks,K,3.5,1,ALT,6,1
+2026-06-02,647336.0,Michael Soroka,arizona diamondbacks,K,5.5,1,ALT,6,1
+2026-06-02,641778.0,Eric Lauer,toronto blue jays,K,2.5,1,ALT,1,0
+2026-06-02,641778.0,Eric Lauer,toronto blue jays,K,4.5,1,ALT,1,0
+2026-06-02,666182.0,Bo Bichette,new york mets,H,1.5,0,BASE,0,0
+2026-06-02,677594.0,Julio Rodriguez,seattle mariners,H,1.5,0,BASE,1,0
+2026-06-02,665742.0,Juan Soto,new york mets,H,0.5,0,BASE,1,1
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,H,0.5,0,BASE,0,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,H,0.5,0,BASE,1,1
+2026-06-02,668901.0,Mark Vientos,new york mets,H,0.5,0,BASE,0,0
+2026-06-02,701807.0,Carson Benge,new york mets,H,0.5,0,BASE,2,1
+2026-06-02,702284.0,Cole Young,seattle mariners,H,0.5,0,BASE,1,1
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,H,0.5,0,BASE,3,1
+2026-06-02,806068.0,Colt Emerson,seattle mariners,H,0.5,0,BASE,2,1
+2026-06-02,543760.0,Marcus Semien,new york mets,H,0.5,0,BASE,0,0
+2026-06-02,620443.0,Luis Torrens,new york mets,H,0.5,0,BASE,0,0
+2026-06-02,805999.0,A.J. Ewing,new york mets,H,0.5,0,BASE,1,1
+2026-06-02,670042.0,Luke Raley,seattle mariners,H,0.5,0,BASE,0,0
+2026-06-02,683146.0,Brett Baty,new york mets,H,0.5,0,BASE,1,1
+2026-06-02,676724.0,Jared Young,new york mets,H,0.5,0,BASE,0,0
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,H,0.5,0,BASE,1,1
+2026-06-02,677594.0,Julio Rodriguez,seattle mariners,HRR,1.5,0,BASE,4,1
+2026-06-02,666182.0,Bo Bichette,new york mets,HRR,1.5,0,BASE,0,0
+2026-06-02,665742.0,Juan Soto,new york mets,HRR,1.5,0,BASE,1,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,HRR,1.5,0,BASE,0,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,HRR,1.5,0,BASE,2,1
+2026-06-02,702284.0,Cole Young,seattle mariners,HRR,1.5,0,BASE,2,1
+2026-06-02,668901.0,Mark Vientos,new york mets,HRR,1.5,0,BASE,0,0
+2026-06-02,701807.0,Carson Benge,new york mets,HRR,1.5,0,BASE,7,1
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,HRR,1.5,0,BASE,5,1
+2026-06-02,806068.0,Colt Emerson,seattle mariners,HRR,1.5,0,BASE,2,1
+2026-06-02,543760.0,Marcus Semien,new york mets,HRR,0.5,0,BASE,0,0
+2026-06-02,805999.0,A.J. Ewing,new york mets,HRR,0.5,0,BASE,2,1
+2026-06-02,620443.0,Luis Torrens,new york mets,HRR,0.5,0,BASE,0,0
+2026-06-02,670042.0,Luke Raley,seattle mariners,HRR,0.5,0,BASE,0,0
+2026-06-02,683146.0,Brett Baty,new york mets,HRR,0.5,0,BASE,1,1
+2026-06-02,676724.0,Jared Young,new york mets,HRR,0.5,0,BASE,0,0
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,HRR,0.5,0,BASE,5,1
+2026-06-02,677594.0,Julio Rodriguez,seattle mariners,TB,1.5,0,BASE,4,1
+2026-06-02,666182.0,Bo Bichette,new york mets,TB,1.5,0,BASE,0,0
+2026-06-02,665742.0,Juan Soto,new york mets,TB,1.5,0,BASE,1,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,TB,1.5,1,ALT,1,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,TB,2.5,1,ALT,1,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,TB,3.5,1,ALT,1,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,TB,4.5,1,ALT,1,0
+2026-06-02,668901.0,Mark Vientos,new york mets,TB,1.5,1,ALT,0,0
+2026-06-02,668901.0,Mark Vientos,new york mets,TB,2.5,1,ALT,0,0
+2026-06-02,668901.0,Mark Vientos,new york mets,TB,3.5,1,ALT,0,0
+2026-06-02,668901.0,Mark Vientos,new york mets,TB,4.5,1,ALT,0,0
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,TB,1.5,1,ALT,4,1
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,TB,2.5,1,ALT,4,1
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,TB,3.5,1,ALT,4,1
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,TB,4.5,1,ALT,4,0
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,TB,1.5,1,ALT,3,1
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,TB,2.5,1,ALT,3,1
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,TB,3.5,1,ALT,3,0
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,TB,4.5,1,ALT,3,0
+2026-06-02,701807.0,Carson Benge,new york mets,TB,1.5,1,ALT,8,1
+2026-06-02,701807.0,Carson Benge,new york mets,TB,2.5,1,ALT,8,1
+2026-06-02,701807.0,Carson Benge,new york mets,TB,3.5,1,ALT,8,1
+2026-06-02,701807.0,Carson Benge,new york mets,TB,4.5,1,ALT,8,1
+2026-06-02,670042.0,Luke Raley,seattle mariners,TB,1.5,1,ALT,0,0
+2026-06-02,670042.0,Luke Raley,seattle mariners,TB,2.5,1,ALT,0,0
+2026-06-02,670042.0,Luke Raley,seattle mariners,TB,3.5,1,ALT,0,0
+2026-06-02,670042.0,Luke Raley,seattle mariners,TB,4.5,1,ALT,0,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,TB,1.5,1,ALT,0,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,TB,2.5,1,ALT,0,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,TB,3.5,1,ALT,0,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,TB,4.5,1,ALT,0,0
+2026-06-02,543760.0,Marcus Semien,new york mets,TB,1.5,1,ALT,0,0
+2026-06-02,543760.0,Marcus Semien,new york mets,TB,2.5,1,ALT,0,0
+2026-06-02,543760.0,Marcus Semien,new york mets,TB,3.5,1,ALT,0,0
+2026-06-02,543760.0,Marcus Semien,new york mets,TB,4.5,1,ALT,0,0
+2026-06-02,676724.0,Jared Young,new york mets,TB,1.5,1,ALT,0,0
+2026-06-02,676724.0,Jared Young,new york mets,TB,2.5,1,ALT,0,0
+2026-06-02,676724.0,Jared Young,new york mets,TB,3.5,1,ALT,0,0
+2026-06-02,683146.0,Brett Baty,new york mets,TB,1.5,1,ALT,1,0
+2026-06-02,683146.0,Brett Baty,new york mets,TB,2.5,1,ALT,1,0
+2026-06-02,683146.0,Brett Baty,new york mets,TB,3.5,1,ALT,1,0
+2026-06-02,806068.0,Colt Emerson,seattle mariners,TB,1.5,1,ALT,3,1
+2026-06-02,806068.0,Colt Emerson,seattle mariners,TB,2.5,1,ALT,3,1
+2026-06-02,806068.0,Colt Emerson,seattle mariners,TB,3.5,1,ALT,3,0
+2026-06-02,805999.0,A.J. Ewing,new york mets,TB,1.5,1,ALT,2,1
+2026-06-02,805999.0,A.J. Ewing,new york mets,TB,2.5,1,ALT,2,0
+2026-06-02,805999.0,A.J. Ewing,new york mets,TB,3.5,1,ALT,2,0
+2026-06-02,702284.0,Cole Young,seattle mariners,TB,1.5,1,ALT,1,0
+2026-06-02,702284.0,Cole Young,seattle mariners,TB,2.5,1,ALT,1,0
+2026-06-02,702284.0,Cole Young,seattle mariners,TB,3.5,1,ALT,1,0
+2026-06-02,620443.0,Luis Torrens,new york mets,TB,1.5,1,ALT,0,0
+2026-06-02,620443.0,Luis Torrens,new york mets,TB,2.5,1,ALT,0,0
+2026-06-02,620443.0,Luis Torrens,new york mets,TB,3.5,1,ALT,0,0
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,BB,0.5,1,ALT,3,1
+2026-06-02,641487.0,J.P. Crawford,seattle mariners,BB,1.5,1,ALT,3,1
+2026-06-02,665742.0,Juan Soto,new york mets,BB,0.5,1,ALT,0,0
+2026-06-02,665742.0,Juan Soto,new york mets,BB,1.5,1,ALT,0,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,668227.0,Randy Arozarena,seattle mariners,BB,1.5,1,ALT,0,0
+2026-06-02,702284.0,Cole Young,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,702284.0,Cole Young,seattle mariners,BB,1.5,1,ALT,0,0
+2026-06-02,670042.0,Luke Raley,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,806068.0,Colt Emerson,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,621550.0,Patrick Wisdom,seattle mariners,BB,0.5,1,ALT,1,1
+2026-06-02,677594.0,Julio Rodriguez,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,701807.0,Carson Benge,new york mets,BB,0.5,1,ALT,1,1
+2026-06-02,686527.0,Dominic Canzone,seattle mariners,BB,0.5,1,ALT,0,0
+2026-06-02,805999.0,A.J. Ewing,new york mets,BB,0.5,1,ALT,0,0
+2026-06-02,683146.0,Brett Baty,new york mets,BB,0.5,1,ALT,0,0
+2026-06-02,676724.0,Jared Young,new york mets,BB,0.5,1,ALT,1,1
+2026-06-02,543760.0,Marcus Semien,new york mets,BB,0.5,1,ALT,0,0
+2026-06-02,669302.0,Logan Gilbert,seattle mariners,K,6.5,0,BASE,8,1
+2026-06-02,669302.0,Logan Gilbert,seattle mariners,K,5.5,1,ALT,8,1
+2026-06-02,669302.0,Logan Gilbert,seattle mariners,K,7.5,1,ALT,8,1

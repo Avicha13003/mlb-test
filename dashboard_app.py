@@ -554,6 +554,10 @@ def _extract_parlay_legs(row: pd.Series) -> list[dict]:
             "odds": _safe_get(row, f"P{i}_ODDS", f"LEG{i}_ODDS", default=""),
             "prob": _safe_get(row, f"P{i}_PROB", f"P{i}_MODEL_PROB", f"LEG{i}_PROB", default=np.nan),
             "edge": _safe_get(row, f"P{i}_EDGE", f"LEG{i}_EDGE", default=np.nan),
+            "status": _safe_get(row, f"P{i}_STATUS", f"LEG{i}_STATUS", default=""),
+            "actual": _safe_get(row, f"P{i}_ACTUAL", f"LEG{i}_ACTUAL", default=""),
+            "result_line": _safe_get(row, f"P{i}_RESULT_LINE", f"LEG{i}_RESULT_LINE", default=""),
+            "hit": _safe_get(row, f"P{i}_HIT", f"LEG{i}_HIT", default=""),
             "pid": _safe_get(row, f"P{i}_ENTITY_ID", f"P{i}_PLAYER_ID", f"LEG{i}_ENTITY_ID", default=np.nan),
             "game": _safe_get(row, f"P{i}_GAME", "GAME_KEY", "GAME_ID", default=""),
         })
@@ -569,11 +573,38 @@ def _extract_parlay_legs(row: pd.Series) -> list[dict]:
                 "odds": _safe_get(row, "ODDS", "ODDS_OUT", default=""),
                 "prob": _safe_get(row, "MODEL_PROB_FINAL", "MODEL_PROB_USED", "MODEL_PROB_META", default=np.nan),
                 "edge": _safe_get(row, "EDGE", "EDGE_META", default=np.nan),
+                "status": _safe_get(row, "RESULT_STATUS", "STATUS", default=""),
+                "actual": _safe_get(row, "ACTUAL", "RESULT_ACTUAL", default=""),
+                "result_line": _safe_get(row, "RESULT_LINE", default=""),
+                "hit": _safe_get(row, "PICK_HIT", "HIT", default=""),
                 "pid": _safe_get(row, "ENTITY_ID", "PLAYER_ID", default=np.nan),
                 "game": _safe_get(row, "GAME_KEY", "GAME_ID", default=""),
             })
     return legs
 
+
+
+def _result_status_from_values(status="", hit="") -> str:
+    status_txt = str(status).strip().upper()
+    if status_txt in {"HIT", "MISS", "PENDING", "DNP", "VOID/REDUCED", "VOID", "PUSH"}:
+        return status_txt
+    hit_txt = str(hit).strip().upper()
+    if hit_txt in {"1", "1.0", "TRUE", "YES"}:
+        return "HIT"
+    if hit_txt in {"0", "0.0", "FALSE", "NO"}:
+        return "MISS"
+    return "PENDING"
+
+
+def _status_class(status: str) -> str:
+    s = str(status).strip().upper()
+    if s == "HIT":
+        return "result-hit"
+    if s == "MISS":
+        return "result-miss"
+    if s in {"DNP", "VOID", "VOID/REDUCED", "PUSH"}:
+        return "result-void"
+    return "result-pending"
 
 def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
     legs = _extract_parlay_legs(row)[:max_legs]
@@ -586,6 +617,11 @@ def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
     edge = _safe_get(row, "PARLAY_EDGE", "EDGE", "EDGE_META", default=np.nan)
     score = _safe_get(row, "PARLAY_SCORE", "META_SCORE", default=np.nan)
     reason = _safe_get(row, "REASON", default="")
+    parlay_status = _safe_get(row, "PARLAY_STATUS", "RESULT_STATUS", default="")
+    parlay_status = _result_status_from_values(parlay_status, _safe_get(row, "PARLAY_HIT", default=""))
+    resolved_legs = _safe_get(row, "PARLAY_RESOLVED_LEGS", default="")
+    parlay_hits = _safe_get(row, "PARLAY_HITS", default="")
+    parlay_misses = _safe_get(row, "PARLAY_MISSES", default="")
 
     leg_html = []
     for leg in legs:
@@ -596,8 +632,11 @@ def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
         line_txt = f"o{line}" if str(line).strip() and str(line).lower() != "nan" else ""
         odds_txt = _format_odds(leg.get("odds"))
         play = " ".join([x for x in [market, line_txt, odds_txt] if str(x).strip() and str(x) != "—"])
+        leg_status = _result_status_from_values(leg.get("status"), leg.get("hit"))
+        actual_txt = leg.get("actual", "")
+        result_line_txt = leg.get("result_line", "") or leg.get("line", "")
         leg_html.append(f"""
-          <div class="leg-card">
+          <div class="leg-card {esc(_status_class(leg_status))}">
             <div class="leg-row">
               <img src="{esc(img)}" class="leg-headshot" onerror="this.style.display='none'"/>
               <div class="leg-main">
@@ -610,6 +649,9 @@ def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
             <div class="mini-chips">
               <span>Model <b>{fmt_num(leg.get('prob'))}</b></span>
               <span>Edge <b>{fmt_num(leg.get('edge'))}</b></span>
+              <span class="{esc(_status_class(leg_status))}">Result <b>{esc(leg_status)}</b></span>
+              <span>Actual <b>{esc(actual_txt)}</b></span>
+              <span>Line <b>{esc(result_line_txt)}</b></span>
             </div>
           </div>
         """)
@@ -625,7 +667,10 @@ def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
             <div class="parlay-title">{esc(style)} • {esc(num_legs)} legs</div>
             <div class="parlay-reason">{esc(reason)}</div>
           </div>
-          <div class="parlay-odds">{_format_odds(american)}</div>
+          <div class="parlay-side">
+            <div class="parlay-status {esc(_status_class(parlay_status))}">{esc(parlay_status)}</div>
+            <div class="parlay-odds">{_format_odds(american)}</div>
+          </div>
         </div>
         <div class="parlay-stats">
           <span>Model <b>{fmt_num(model_prob)}</b></span>
@@ -633,6 +678,9 @@ def _parlay_card_html(row: pd.Series, label: str, max_legs: int = 8) -> str:
           <span>Decimal <b>{fmt_num(decimal, 2)}</b></span>
           <span>Edge <b>{fmt_num(edge)}</b></span>
           <span>Score <b>{fmt_num(score)}</b></span>
+          <span>Legs <b>{esc(resolved_legs)}</b></span>
+          <span>Hits <b>{esc(parlay_hits)}</b></span>
+          <span>Misses <b>{esc(parlay_misses)}</b></span>
         </div>
         <div class="legs-grid">{''.join(leg_html)}</div>
       </div>
@@ -654,12 +702,18 @@ def render_parlay_card_board(title: str, df: pd.DataFrame, *, label: str | None 
       .parlay-eyebrow{font-size:.78rem;color:#93c5fd;text-transform:uppercase;letter-spacing:.09em;font-weight:900;margin-bottom:5px;}
       .parlay-title{font-size:1.2rem;color:#fff;font-weight:900;line-height:1.1;}
       .parlay-reason{font-size:.83rem;color:#94a3b8;margin-top:6px;line-height:1.35;max-width:720px;}
+      .parlay-side{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
       .parlay-odds{background:linear-gradient(135deg,#1e3a8a,#0f172a);border:1px solid rgba(96,165,250,.35);border-radius:14px;padding:10px 14px;color:#fff;font-size:1.12rem;font-weight:900;white-space:nowrap;}
+      .parlay-status{border-radius:999px;padding:7px 12px;font-size:.82rem;font-weight:900;text-transform:uppercase;letter-spacing:.05em;border:1px solid rgba(148,163,184,.20);}
       .parlay-stats{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px;}
       .parlay-stats span,.mini-chips span{background:#1f2937;border:1px solid rgba(148,163,184,.18);border-radius:999px;padding:6px 10px;color:#cbd5e1;font-size:.82rem;}
       .parlay-stats b,.mini-chips b{color:#fff;margin-left:5px;}
       .legs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:10px;}
       .leg-card{background:#0b1220;border:1px solid rgba(148,163,184,.14);border-radius:16px;padding:12px;min-height:116px;}
+      .result-hit{background:rgba(22,163,74,.18)!important;border-color:rgba(34,197,94,.38)!important;color:#bbf7d0!important;}
+      .result-miss{background:rgba(220,38,38,.16)!important;border-color:rgba(248,113,113,.35)!important;color:#fecaca!important;}
+      .result-pending{background:rgba(245,158,11,.13)!important;border-color:rgba(251,191,36,.30)!important;color:#fde68a!important;}
+      .result-void{background:rgba(148,163,184,.13)!important;border-color:rgba(148,163,184,.28)!important;color:#e2e8f0!important;}
       .leg-row{display:flex;align-items:flex-start;gap:10px;}
       .leg-headshot{width:52px;height:52px;border-radius:50%;object-fit:cover;border:2px solid rgba(148,163,184,.25);background:#111827;flex:0 0 auto;}
       .leg-logo{width:34px;height:34px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,.45));margin-left:auto;}
